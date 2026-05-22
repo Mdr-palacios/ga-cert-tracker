@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Georgia County Certification Tracker — May 19, 2026 Primary</title>
+<meta name="description" content="Live tracker of which Georgia counties have certified results from the May 19, 2026 General Primary. Built by Common Cause Georgia." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<style>
+  :root {
+    --bg: #f7f8fa;
+    --panel: #ffffff;
+    --ink: #0f172a;
+    --muted: #64748b;
+    --border: #e2e8f0;
+    --certified: #16a34a;
+    --pending: #f59e0b;
+    --unknown: #94a3b8;
+    --accent: #1e3a8a;
+    --shadow: 0 1px 3px rgba(15,23,42,0.06), 0 1px 2px rgba(15,23,42,0.04);
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    background: var(--bg);
+    color: var(--ink);
+    line-height: 1.5;
+  }
+  header {
+    background: var(--accent);
+    color: white;
+    padding: 28px 24px;
+    box-shadow: var(--shadow);
+  }
+  header h1 {
+    margin: 0 0 6px 0;
+    font-size: 26px;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+  }
+  header .subtitle {
+    font-size: 14px;
+    opacity: 0.85;
+    font-weight: 400;
+  }
+  .container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 24px;
+  }
+  .stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 16px;
+    margin-bottom: 24px;
+  }
+  .stat {
+    background: var(--panel);
+    padding: 18px 20px;
+    border-radius: 10px;
+    border: 1px solid var(--border);
+    box-shadow: var(--shadow);
+  }
+  .stat .label {
+    font-size: 12px;
+    color: var(--muted);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  .stat .value {
+    font-size: 32px;
+    font-weight: 800;
+    margin-top: 4px;
+    letter-spacing: -0.02em;
+  }
+  .stat.certified .value { color: var(--certified); }
+  .stat.pending .value { color: var(--pending); }
+  .stat.unknown .value { color: var(--unknown); }
+  .stat.total .value { color: var(--accent); }
+
+  .progress-bar {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 18px 20px;
+    margin-bottom: 24px;
+    box-shadow: var(--shadow);
+  }
+  .progress-bar .label {
+    font-size: 13px;
+    color: var(--muted);
+    margin-bottom: 8px;
+    font-weight: 600;
+  }
+  .progress-track {
+    height: 14px;
+    background: #e2e8f0;
+    border-radius: 7px;
+    overflow: hidden;
+    display: flex;
+  }
+  .progress-fill-certified { background: var(--certified); height: 100%; }
+  .progress-fill-pending { background: var(--pending); height: 100%; }
+  .progress-fill-unknown { background: var(--unknown); height: 100%; }
+
+  .main-grid {
+    display: grid;
+    grid-template-columns: 1.4fr 1fr;
+    gap: 24px;
+  }
+  @media (max-width: 1024px) {
+    .main-grid { grid-template-columns: 1fr; }
+  }
+  .panel {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: var(--shadow);
+  }
+  .panel h2 {
+    margin: 0 0 16px 0;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+  }
+  #map-svg {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  .county {
+    stroke: white;
+    stroke-width: 0.6;
+    cursor: pointer;
+    transition: opacity 0.15s, stroke-width 0.15s;
+  }
+  .county:hover {
+    stroke: var(--ink);
+    stroke-width: 1.5;
+  }
+  .legend {
+    display: flex;
+    gap: 18px;
+    margin-top: 12px;
+    flex-wrap: wrap;
+  }
+  .legend-item { display: flex; align-items: center; gap: 8px; font-size: 13px; color: var(--muted); }
+  .legend-swatch { width: 14px; height: 14px; border-radius: 3px; }
+
+  .controls {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 14px;
+    flex-wrap: wrap;
+  }
+  .controls input {
+    flex: 1;
+    min-width: 180px;
+    padding: 8px 12px;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    font-family: inherit;
+    font-size: 14px;
+  }
+  .controls select {
+    padding: 8px 12px;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    font-family: inherit;
+    font-size: 14px;
+    background: white;
+  }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--border); }
+  th { font-weight: 600; color: var(--muted); font-size: 11px; text-transform: uppercase; letter-spacing: 0.05em; cursor: pointer; user-select: none; }
+  th:hover { color: var(--ink); }
+  tr:hover { background: #f8fafc; }
+  .badge { display: inline-block; padding: 2px 8px; border-radius: 12px; font-size: 11px; font-weight: 600; }
+  .badge.yes { background: #dcfce7; color: #15803d; }
+  .badge.no { background: #fef3c7; color: #b45309; }
+  .badge.unknown { background: #e2e8f0; color: #475569; }
+
+  .table-wrap { max-height: 520px; overflow-y: auto; }
+  .table-wrap table thead { position: sticky; top: 0; background: var(--panel); z-index: 1; }
+
+  .tooltip {
+    position: absolute;
+    background: var(--ink);
+    color: white;
+    padding: 10px 12px;
+    border-radius: 6px;
+    font-size: 12px;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.12s;
+    z-index: 10;
+    max-width: 260px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  }
+  .tooltip strong { color: white; font-size: 13px; }
+  .tooltip .ttline { margin-top: 4px; opacity: 0.85; }
+
+  footer {
+    margin-top: 32px;
+    padding: 20px 24px;
+    text-align: center;
+    font-size: 12px;
+    color: var(--muted);
+    border-top: 1px solid var(--border);
+  }
+  footer a { color: var(--accent); }
+
+  .data-source {
+    font-size: 12px;
+    color: var(--muted);
+    margin-top: 12px;
+  }
+  .data-source a { color: var(--accent); }
+</style>
+</head>
+<body>
+<header>
+  <h1>Georgia County Certification Tracker</h1>
+  <div class="subtitle">May 19, 2026 General Primary &nbsp;·&nbsp; Statutory deadline: 5:00 PM Monday, May 25, 2026</div>
+</header>
+
+<div class="container">
+  <div class="stats">
+    <div class="stat certified"><div class="label">Certified</div><div class="value" id="stat-yes">—</div></div>
+    <div class="stat pending"><div class="label">Pending</div><div class="value" id="stat-no">—</div></div>
+    <div class="stat unknown"><div class="label">Unknown</div><div class="value" id="stat-unknown">—</div></div>
+    <div class="stat total"><div class="label">Total Counties</div><div class="value" id="stat-total">159</div></div>
+  </div>
+
+  <div class="progress-bar">
+    <div class="label" id="progress-label">Certification Progress</div>
+    <div class="progress-track">
+      <div class="progress-fill-certified" id="prog-yes"></div>
+      <div class="progress-fill-pending" id="prog-no"></div>
+      <div class="progress-fill-unknown" id="prog-unknown"></div>
+    </div>
+  </div>
+
+  <div class="main-grid">
+    <div class="panel">
+      <h2>Map View</h2>
+      <svg id="map-svg" viewBox="0 0 700 700"></svg>
+      <div class="legend">
+        <div class="legend-item"><span class="legend-swatch" style="background:var(--certified)"></span>Certified</div>
+        <div class="legend-item"><span class="legend-swatch" style="background:var(--pending)"></span>Pending (not yet certified)</div>
+        <div class="legend-item"><span class="legend-swatch" style="background:var(--unknown)"></span>Unknown / no data</div>
+      </div>
+    </div>
+
+    <div class="panel">
+      <h2>County Status</h2>
+      <div class="controls">
+        <input type="text" id="search" placeholder="Search county…" />
+        <select id="filter">
+          <option value="all">All statuses</option>
+          <option value="Yes">Certified only</option>
+          <option value="No">Pending only</option>
+          <option value="Unknown">Unknown only</option>
+        </select>
+      </div>
+      <div class="table-wrap">
+        <table id="county-table">
+          <thead>
+            <tr>
+              <th data-sort="county">County</th>
+              <th data-sort="certified">Status</th>
+              <th data-sort="certification_date">Date</th>
+              <th data-sort="turnout_pct">Turnout</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <div class="data-source">
+        Data sourced from county elections websites. Updated as counties post certifications.
+        <a href="ga_certification_tracker.csv" download>Download CSV</a> &middot;
+        <a href="ga_certification_tracker.json">JSON</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="panel" style="margin-top:24px;">
+    <h2>Selected County Detail</h2>
+    <div id="detail-panel" style="color:var(--muted);font-size:14px;">Click a county on the map or in the table to see details.</div>
+  </div>
+</div>
+
+<div class="tooltip" id="tooltip"></div>
+
+<footer>
+  Built by <strong>Common Cause Georgia</strong> &middot; Data updated <span id="updated-stamp">May 21, 2026</span> &middot;
+  <a href="https://www.commoncause.org/georgia/" target="_blank">commoncause.org/georgia</a>
+</footer>
+
+<script>
+const COLORS = { Yes: '#16a34a', No: '#f59e0b', Unknown: '#94a3b8' };
+const LABELS = { Yes: 'Certified', No: 'Pending', Unknown: 'Unknown' };
+function labelFor(s) { return LABELS[s] || 'Unknown'; }
+
+Promise.all([
+  d3.json('ga_counties.geojson'),
+  d3.json('ga_certification_tracker.json')
+]).then(([geo, data]) => {
+  const byFips = {};
+  const byName = {};
+  data.forEach(d => {
+    if (d.fips) byFips[d.fips] = d;
+    byName[d.county.toLowerCase()] = d;
+  });
+
+  // Stats
+  const counts = { Yes: 0, No: 0, Unknown: 0 };
+  data.forEach(d => { counts[d.certified || 'Unknown'] = (counts[d.certified || 'Unknown'] || 0) + 1; });
+  document.getElementById('stat-yes').textContent = counts.Yes || 0;
+  document.getElementById('stat-no').textContent = counts.No || 0;
+  document.getElementById('stat-unknown').textContent = counts.Unknown || 0;
+
+  const total = data.length;
+  document.getElementById('prog-yes').style.width = (100*counts.Yes/total) + '%';
+  document.getElementById('prog-no').style.width = (100*counts.No/total) + '%';
+  document.getElementById('prog-unknown').style.width = (100*counts.Unknown/total) + '%';
+  document.getElementById('progress-label').innerHTML =
+    `<span style="color:var(--ink);font-weight:700">Certification Progress: ${counts.Yes} of ${total} counties certified (${((100*counts.Yes/total)).toFixed(1)}%)</span> &nbsp;&middot;&nbsp; <span style="color:var(--certified)">■ Certified</span> &nbsp; <span style="color:var(--pending)">■ Pending</span> &nbsp; <span style="color:var(--unknown)">■ Unknown</span>`;
+
+  // Map rendering
+  const svg = d3.select('#map-svg');
+  const width = 700, height = 700;
+  const projection = d3.geoMercator().fitSize([width, height], geo);
+  const path = d3.geoPath(projection);
+  const tooltip = d3.select('#tooltip');
+
+  svg.append('g').selectAll('path')
+    .data(geo.features)
+    .enter().append('path')
+    .attr('class', 'county')
+    .attr('d', path)
+    .attr('fill', d => {
+      const rec = byFips[d.id] || byName[(d.properties.NAME || '').toLowerCase()];
+      const status = (rec && rec.certified) || 'Unknown';
+      return COLORS[status] || COLORS.Unknown;
+    })
+    .on('mouseover', (event, d) => {
+      const rec = byFips[d.id] || byName[(d.properties.NAME || '').toLowerCase()] || {};
+      const name = (rec.county || d.properties.NAME) + ' County';
+      tooltip.style('opacity', 1)
+        .html(`<strong>${name}</strong>
+          <div class="ttline">Status: ${labelFor(rec.certified)}</div>
+          ${rec.certification_date ? `<div class="ttline">Certified: ${rec.certification_date}</div>` : ''}
+          ${rec.turnout_pct ? `<div class="ttline">Turnout: ${rec.turnout_pct}</div>` : ''}
+          ${rec.notes ? `<div class="ttline">${rec.notes.substring(0,140)}${rec.notes.length>140?'…':''}</div>` : ''}`);
+    })
+    .on('mousemove', (event) => {
+      tooltip.style('left', (event.pageX + 14) + 'px').style('top', (event.pageY + 10) + 'px');
+    })
+    .on('mouseout', () => tooltip.style('opacity', 0))
+    .on('click', (event, d) => {
+      const rec = byFips[d.id] || byName[(d.properties.NAME || '').toLowerCase()];
+      if (rec) showDetail(rec);
+    });
+
+  // Table
+  const tbody = document.querySelector('#county-table tbody');
+  let sortKey = 'county', sortAsc = true;
+
+  function renderTable() {
+    const q = document.getElementById('search').value.toLowerCase();
+    const filter = document.getElementById('filter').value;
+    let rows = data.filter(d => {
+      if (filter !== 'all' && d.certified !== filter) return false;
+      if (q && !d.county.toLowerCase().includes(q)) return false;
+      return true;
+    });
+    rows.sort((a, b) => {
+      const va = (a[sortKey] || '').toString().toLowerCase();
+      const vb = (b[sortKey] || '').toString().toLowerCase();
+      // Numeric for turnout
+      if (sortKey === 'turnout_pct') {
+        const na = parseFloat(va.replace('%','')) || -1;
+        const nb = parseFloat(vb.replace('%','')) || -1;
+        return sortAsc ? na - nb : nb - na;
+      }
+      return sortAsc ? va.localeCompare(vb) : vb.localeCompare(va);
+    });
+    tbody.innerHTML = rows.map(d => `
+      <tr data-county="${d.county}" style="cursor:pointer;">
+        <td>${d.county}</td>
+        <td><span class="badge ${(d.certified||'unknown').toLowerCase()}">${labelFor(d.certified)}</span></td>
+        <td>${d.certification_date || '—'}</td>
+        <td>${d.turnout_pct || '—'}</td>
+      </tr>
+    `).join('');
+    tbody.querySelectorAll('tr').forEach(tr => {
+      tr.addEventListener('click', () => {
+        const rec = data.find(r => r.county === tr.dataset.county);
+        if (rec) showDetail(rec);
+      });
+    });
+  }
+  renderTable();
+
+  document.getElementById('search').addEventListener('input', renderTable);
+  document.getElementById('filter').addEventListener('change', renderTable);
+  document.querySelectorAll('#county-table th').forEach(th => {
+    th.addEventListener('click', () => {
+      const k = th.dataset.sort;
+      if (k === sortKey) sortAsc = !sortAsc; else { sortKey = k; sortAsc = true; }
+      renderTable();
+    });
+  });
+
+  function showDetail(rec) {
+    const sources = (rec.source_url || '').split(/,\s*(?=\[)/).map(s => {
+      const m = s.match(/\[([^\]]+)\]\(([^)]+)\)/);
+      return m ? `<a href="${m[2]}" target="_blank">${m[1]}</a>` : s;
+    }).join(' &middot; ');
+    document.getElementById('detail-panel').innerHTML = `
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px;color:var(--ink);">
+        <div><div style="font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:0.05em;">County</div><div style="font-size:18px;font-weight:700;">${rec.county} County</div></div>
+        <div><div style="font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:0.05em;">Status</div><div><span class="badge ${(rec.certified||'unknown').toLowerCase()}">${labelFor(rec.certified)}</span></div></div>
+        <div><div style="font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:0.05em;">Certified</div><div>${rec.certification_date || '—'}</div></div>
+        <div><div style="font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:0.05em;">Deadline</div><div>${rec.certification_deadline || '—'}</div></div>
+        <div><div style="font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:0.05em;">Ballots Cast</div><div>${rec.ballots_cast || '—'}</div></div>
+        <div><div style="font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:0.05em;">Registered Voters</div><div>${rec.registered_voters || '—'}</div></div>
+        <div><div style="font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:0.05em;">Turnout</div><div>${rec.turnout_pct || '—'}</div></div>
+      </div>
+      ${rec.notes ? `<div style="margin-top:14px;padding:12px;background:#f8fafc;border-left:3px solid var(--accent);border-radius:4px;font-size:13px;"><strong>Notes:</strong> ${rec.notes}</div>` : ''}
+      ${sources ? `<div style="margin-top:12px;font-size:12px;color:var(--muted);"><strong>Sources:</strong> ${sources}</div>` : ''}
+    `;
+  }
+}).catch(err => {
+  console.error(err);
+  document.body.insertAdjacentHTML('beforeend', `<div style="padding:20px;color:red;">Error loading data: ${err.message}</div>`);
+});
+</script>
+</body>
+</html>
