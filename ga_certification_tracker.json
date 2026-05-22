@@ -11,7 +11,14 @@
     "registered_voters": "",
     "turnout_pct": "",
     "notes": "As of May 21, 2026, results on the Georgia Secretary of State portal are still marked 'Unofficial'. No record of a certification vote was found on the county's website. Total ballots cast estimated from the ESPLOST county-wide contest.",
-    "source_url": "[County Elections Page](https://applingcountyga.org/?page_id=149), [State Election Results](https://results.sos.ga.gov/results/public/appling-county-ga/elections/GeneralPrimary51926)"
+    "source_url": "[County Elections Page](https://applingcountyga.org/?page_id=149), [State Election Results](https://results.sos.ga.gov/results/public/appling-county-ga/elections/GeneralPrimary51926)",
+    "broadcast_available": "",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "",
+    "broadcast_notes": "",
+    "broadcast_source": ""
   },
   {
     "fips": "13003",
@@ -25,7 +32,14 @@
     "registered_voters": "",
     "turnout_pct": "",
     "notes": "As of May 21, 2026, Atkinson County has not yet posted a notice of certification for the May 19, 2026 General Primary. The statutory deadline for certification is May 25, 2026. Regular board meetings are held on the second Tuesday of each month, with the last occurring on May 12, 2026. No special certification meeting notice was found on the official site.",
-    "source_url": "[County Elections Page](https://atkinsoncounty.org/board-of-elections/), [Public Notices](https://atkinsoncounty.org/public-notices/)"
+    "source_url": "[County Elections Page](https://atkinsoncounty.org/board-of-elections/), [Public Notices](https://atkinsoncounty.org/public-notices/)",
+    "broadcast_available": "",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "",
+    "broadcast_notes": "",
+    "broadcast_source": ""
   },
   {
     "fips": "13005",
@@ -39,7 +53,14 @@
     "registered_voters": "~7,013 (implied)",
     "turnout_pct": "",
     "notes": "No official announcement of certification or a specific certification meeting for the May 19, 2026 primary was found on the Bacon County website or in local news as of May 21, 2026. The statutory deadline for certification in Georgia is May 25, 2026. Early voting data from Georgia Votes showed 526 ballots cast (7.5% turnout), suggesting approximately 7,013 registered voters.",
-    "source_url": "[Bacon County Voter Registration](https://baconcounty.org/voter-registration.php), [Bacon County Boards Meeting Dates](https://baconcounty.org/uploads/Bacon%20County%20Boards%20meeting%20dates.pdf), [Georgia Votes - Bacon County](https://www.georgiavotes.com/county.php?c=3)"
+    "source_url": "[Bacon County Voter Registration](https://baconcounty.org/voter-registration.php), [Bacon County Boards Meeting Dates](https://baconcounty.org/uploads/Bacon%20County%20Boards%20meeting%20dates.pdf), [Georgia Votes - Bacon County](https://www.georgiavotes.com/county.php?c=3)",
+    "broadcast_available": "",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "",
+    "broadcast_notes": "",
+    "broadcast_source": ""
   },
   {
     "fips": "13007",
@@ -53,7 +74,14 @@
     "registered_voters": "Unknown",
     "turnout_pct": "Unknown",
     "notes": "The official Baker County elections website has not been updated with information regarding the May 19, 2026 primary election; the most recent meeting minutes and agendas available are from 2022. No official announcement or certification document for Baker County, Georgia was found on the county site or through external news sources as of May 21, 2026. The statutory deadline for certification is May 25, 2026.",
-    "source_url": "[County Elections Page](https://www.bakercountyga.com/board-of-elections)"
+    "source_url": "[County Elections Page](https://www.bakercountyga.com/board-of-elections)",
+    "broadcast_available": "",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "",
+    "broadcast_notes": "",
+    "broadcast_source": ""
   },
   {
     "fips": "13009",
@@ -67,7 +95,14 @@
     "registered_voters": "",
     "turnout_pct": "",
     "notes": "Results are still labeled as 'Unofficial' on the Georgia Secretary of State's election results portal as of May 21, 2026. The most recent update to the Baldwin County results was on election night, May 19, 2026, at 6:10 PM. The statutory deadline for county certification is May 25, 2026.",
-    "source_url": "[County Elections Page](https://results.sos.ga.gov/results/public/baldwin-county-ga/elections/GeneralPrimary51926)"
+    "source_url": "[County Elections Page](https://results.sos.ga.gov/results/public/baldwin-county-ga/elections/GeneralPrimary51926)",
+    "broadcast_available": "",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "",
+    "broadcast_notes": "",
+    "broadcast_source": ""
   },
   {
     "fips": "13011",
@@ -81,7 +116,14 @@
     "registered_voters": "",
     "turnout_pct": "",
     "notes": "The Board of Elections is scheduled to certify the results during a meeting on Friday, May 22, 2026, at 12:00 PM. Results are currently listed as unofficial and incomplete.",
-    "source_url": "[County Elections Page](https://www.bankscountyga.org/1307/Elections-Voter-Registration), [Certification Meeting Agenda](https://www.bankscountyga.org/DocumentCenter/View/1004/MAY-22-2026-Pre-Certification-AND-CERTIFICATION-Meeting-Agenda)"
+    "source_url": "[County Elections Page](https://www.bankscountyga.org/1307/Elections-Voter-Registration), [Certification Meeting Agenda](https://www.bankscountyga.org/DocumentCenter/View/1004/MAY-22-2026-Pre-Certification-AND-CERTIFICATION-Meeting-Agenda)",
+    "broadcast_available": "No",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "Yes",
+    "broadcast_notes": "The meeting agenda and website indicate the meeting will be held in person at the Elections Office with no mention of a livestream or remote option. Past meetings have also been noted as in-person.",
+    "broadcast_source": "[Meeting Agenda](https://www.bankscountyga.org/DocumentCenter/View/1004/MAY-22-2026-Pre-Certification-AND-CERTIFICATION-Meeting-Agenda), [Elections & Voter Registration](https://www.bankscountyga.org/1307/Elections-Voter-Registration)"
   },
   {
     "fips": "13013",
@@ -95,7 +137,14 @@
     "registered_voters": "63,257",
     "turnout_pct": "21.94%",
     "notes": "Pre-certification meeting Fri May 22 @ 1:00pm; certification immediately after. Unofficial results posted.",
-    "source_url": "[County Elections Page](https://www.barrowga.org/215/Elections-Voter-Registration), [Unofficial Results PDF](https://www.barrowga.org/DocumentCenter/View/1613/Unofficial-and-Incomplete-Results---Final-Results---Election-Night)"
+    "source_url": "[County Elections Page](https://www.barrowga.org/215/Elections-Voter-Registration), [Unofficial Results PDF](https://www.barrowga.org/DocumentCenter/View/1613/Unofficial-and-Incomplete-Results---Final-Results---Election-Night)",
+    "broadcast_available": "Unknown",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "Unknown",
+    "broadcast_notes": "Barrow County Board of Elections meetings are held in person at 233 East Broad Street, Winder, GA. No evidence of a livestream for Board of Elections meetings was found on the county website, Granicus portal, or official Facebook page. Board of Commissioners meetings are recorded and posted to the county's website, but Board of Elections meetings are not listed in the video archives.",
+    "broadcast_source": "[Barrow County Elections & Voter Registration](https://www.barrowga.org/215/Elections-Voter-Registration), [Barrow County Board of Elections & Voter Registration](https://www.barrowga.org/370/Board-of-Elections-Voter-Registration), [Barrow County Granicus Video Portal](https://barrowga.granicus.com/ViewPublisher.php?view_id=1)"
   },
   {
     "fips": "13015",
@@ -109,7 +158,14 @@
     "registered_voters": "",
     "turnout_pct": "",
     "notes": "Election results are currently marked as 'UNOFFICIAL'. A board meeting is scheduled for Friday, May 22, 2026, at 3:00 PM in the Commissioner's Conference Room, which is likely for certification. Precincts reporting 17/17 as of May 19, 2026.",
-    "source_url": "[County Elections Page](https://www.bartowcountyga.gov/departments/elections/index.php), [Board Meeting Schedule](https://www.bartowcountyga.gov/departments/elections/board_meeting_schedule.php), [Election Results](https://app.enhancedvoting.com/results/public/bartow-county-ga/elections/GeneralPrimary51926)"
+    "source_url": "[County Elections Page](https://www.bartowcountyga.gov/departments/elections/index.php), [Board Meeting Schedule](https://www.bartowcountyga.gov/departments/elections/board_meeting_schedule.php), [Election Results](https://app.enhancedvoting.com/results/public/bartow-county-ga/elections/GeneralPrimary51926)",
+    "broadcast_available": "Unknown",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "No",
+    "broadcast_notes": "No evidence of a livestream for Board of Elections meetings was found on the county's website or social media. Meetings are held in-person at the Board's Office.",
+    "broadcast_source": "[Bartow County Elections](https://www.bartowcountyga.gov/departments/elections/information_about_the_may_19_2026_general_primary_election.php)"
   },
   {
     "fips": "13017",
@@ -123,7 +179,14 @@
     "registered_voters": "",
     "turnout_pct": "",
     "notes": "As of May 21, 2026, the Ben Hill County elections website has not posted certified results or a notice of certification for the May 19, 2026, General Primary. The statutory deadline for county certification is May 25, 2026.",
-    "source_url": "[County Elections Page](https://www.benhillcounty-ga.gov/business-directory/elections/)"
+    "source_url": "[County Elections Page](https://www.benhillcounty-ga.gov/business-directory/elections/)",
+    "broadcast_available": "",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "",
+    "broadcast_notes": "",
+    "broadcast_source": ""
   },
   {
     "fips": "13019",
@@ -137,7 +200,14 @@
     "registered_voters": "11,749 (as of Nov 2025)",
     "turnout_pct": "26% (approx. based on ballots cast/registered voters)",
     "notes": "The Berrien County Board of Elections held its monthly board meeting on the 3rd Thursday of May (May 21, 2026) at 10:00 am, which typically serves as the certification meeting for the May primary. Results on the Secretary of State website for Berrien County are reported as 'Election Night Complete' for all methods. Total ballots cast were estimated by summing votes in major contested races (e.g., GOP Governor primary total votes).",
-    "source_url": "[County Elections Page](https://berriencountygeorgia.com/elections/), [Elections Public Notice](https://berriencountygeorgia.com/elections-public-notice/), [State Election Results](https://results.sos.ga.gov/results/public/berrien-county-ga/elections/GeneralPrimary51926)"
+    "source_url": "[County Elections Page](https://berriencountygeorgia.com/elections/), [Elections Public Notice](https://berriencountygeorgia.com/elections-public-notice/), [State Election Results](https://results.sos.ga.gov/results/public/berrien-county-ga/elections/GeneralPrimary51926)",
+    "broadcast_available": "",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "",
+    "broadcast_notes": "",
+    "broadcast_source": ""
   },
   {
     "fips": "13021",
@@ -151,7 +221,14 @@
     "registered_voters": "105,477",
     "turnout_pct": "27.31%",
     "notes": "A board meeting for the precertification and certification of the May 19, 2026 General Primary is scheduled for Friday, May 22, 2026, at 3:00 PM. Results currently available are marked as 'Unofficial and Incomplete'.",
-    "source_url": "[County Elections Page](https://www.maconbibb.us/board-of-elections/may-19-2026/), [Meeting Agenda](https://www.maconbibb.us/board-of-elections/agendas-minutes/)"
+    "source_url": "[County Elections Page](https://www.maconbibb.us/board-of-elections/may-19-2026/), [Meeting Agenda](https://www.maconbibb.us/board-of-elections/agendas-minutes/)",
+    "broadcast_available": "Yes",
+    "broadcast_platform": "YouTube",
+    "broadcast_url": "[Macon-Bibb County YouTube](https://www.youtube.com/@maconbibbcounty)",
+    "broadcast_meeting_id": "",
+    "in_person_only": "No",
+    "broadcast_notes": "Macon-Bibb County Board of Elections meetings are typically streamed live on the county's official YouTube channel. Past certification and special meetings from 2026 were archived there.",
+    "broadcast_source": "[Macon-Bibb County Board of Elections](https://www.maconbibb.us/board-of-elections/), [Macon-Bibb County YouTube Channel](https://www.youtube.com/@maconbibbcounty)"
   },
   {
     "fips": "13023",
@@ -165,7 +242,14 @@
     "registered_voters": "",
     "turnout_pct": "",
     "notes": "The official Bleckley County Board of Elections website provides public notices for the May 19, 2026 primary regarding early processing and computation of returns, but does not yet list an official certification announcement or results. The statutory deadline for county certification is May 25, 2026. A Commissioner meeting was held on May 21, 2026, but the agenda did not include election certification. No specific Board of Elections certification meeting was found on the site.",
-    "source_url": "[County Elections](https://bleckley.org/board-of-elections-and-registration/)"
+    "source_url": "[County Elections](https://bleckley.org/board-of-elections-and-registration/)",
+    "broadcast_available": "",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "",
+    "broadcast_notes": "",
+    "broadcast_source": ""
   },
   {
     "fips": "13025",
@@ -179,7 +263,14 @@
     "registered_voters": "Unknown",
     "turnout_pct": "Unknown",
     "notes": "As of late Thursday, May 21, 2026, the Brantley County elections website has not posted an official certification notice or final results for the May 19 primary. Unofficial results show 100% of precincts reporting. Recent wildfires in the county have caused significant local disruption, which may affect the certification timeline.",
-    "source_url": "[County Elections](https://brantleycounty-ga.gov/boardofelections), [News4Jax Results](https://www.news4jax.com/vote-2026/2026/05/14/brantley-charlton-pierce-county-election-results-2026-georgia-primary/)"
+    "source_url": "[County Elections](https://brantleycounty-ga.gov/boardofelections), [News4Jax Results](https://www.news4jax.com/vote-2026/2026/05/14/brantley-charlton-pierce-county-election-results-2026-georgia-primary/)",
+    "broadcast_available": "",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "",
+    "broadcast_notes": "",
+    "broadcast_source": ""
   },
   {
     "fips": "13027",
@@ -193,7 +284,14 @@
     "registered_voters": "",
     "turnout_pct": "",
     "notes": "The Brooks County official website (brookscountyga.gov) is currently unreachable. According to Georgia statutory law (O.C.G.A. \u00a7 21-2-493), the deadline for county certification is the Monday following the election (May 25, 2026). As of May 21, 2026, no official notice of early certification was found via secondary sources or archived meeting agendas. The Board of Elections typically meets at 610 South Highland Street, Quitman, GA.",
-    "source_url": "[County Elections Page](https://brookscountyga.gov/elections)"
+    "source_url": "[County Elections Page](https://brookscountyga.gov/elections)",
+    "broadcast_available": "",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "",
+    "broadcast_notes": "",
+    "broadcast_source": ""
   },
   {
     "fips": "13029",
@@ -207,7 +305,14 @@
     "registered_voters": "34,465",
     "turnout_pct": "26.21%",
     "notes": "Certification meeting is scheduled for Tuesday, May 26, 2026, at 4:00 PM in Pembroke. A pre-certification meeting is scheduled for Friday, May 22, 2026. Turnout was reported at 26.21% with approximately 9,033 ballots cast from an electorate of 34,465.",
-    "source_url": "[County Elections Page](https://www.bryancountyga.gov/government/departments-a-g/elections/board-of-elections-registration), [Bryan County News](https://www.bryancountynews.com/news/esplost-renewed-on-election-day/)"
+    "source_url": "[County Elections Page](https://www.bryancountyga.gov/government/departments-a-g/elections/board-of-elections-registration), [Bryan County News](https://www.bryancountynews.com/news/esplost-renewed-on-election-day/)",
+    "broadcast_available": "No",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "Yes",
+    "broadcast_notes": "Board of Elections meetings are not included in the county's regular livestreaming on YouTube or Facebook. Agendas for these meetings do not provide remote access links.",
+    "broadcast_source": "[Bryan County Board of Elections & Registration](https://www.bryancountyga.gov/government/departments-a-g/elections/board-of-elections-registration)"
   },
   {
     "fips": "13031",
@@ -221,7 +326,14 @@
     "registered_voters": "50,694",
     "turnout_pct": "22.19%",
     "notes": "Certification is scheduled for a Special Meeting on May 26, 2026, at 1:30 PM. The board will also vote on provisional ballots at that time. Report as of May 21 remains 'Unofficial and Incomplete.'",
-    "source_url": "[County Elections Page](https://bullochcounty.net/elections/), [Meeting Agenda](https://bullochga.iqm2.com/Citizens/FileOpen.aspx?Type=14&ID=1878&Inline=True)"
+    "source_url": "[County Elections Page](https://bullochcounty.net/elections/), [Meeting Agenda](https://bullochga.iqm2.com/Citizens/FileOpen.aspx?Type=14&ID=1878&Inline=True)",
+    "broadcast_available": "No",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "Yes",
+    "broadcast_notes": "The agenda for the May 26, 2026 Special Meeting (Certification) specifies an in-person location at the North Main Annex Community Room. While Bulloch County livestreams Board of Commissioners meetings on YouTube, Board of Elections meetings are not listed among their livestreams or past videos.",
+    "broadcast_source": "[Bulloch County Meeting Portal](http://bullochga.iqm2.com/Citizens/Default.aspx), [Bulloch County Board of Commissioners YouTube](https://www.youtube.com/@bullochcountyboardofcommis8310/streams)"
   },
   {
     "fips": "13033",
@@ -235,7 +347,14 @@
     "registered_voters": "16,441",
     "turnout_pct": "27.48%",
     "notes": "The Burke County Board of Elections is scheduled to meet for election certification on Friday, May 22, 2026, at 10:00 a.m. results remain unofficial and incomplete as of May 21.",
-    "source_url": "[County Elections](https://www.burkecounty-ga.gov/departments/board_of_elections_and_registration.php)"
+    "source_url": "[County Elections](https://www.burkecounty-ga.gov/departments/board_of_elections_and_registration.php)",
+    "broadcast_available": "No",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "Yes",
+    "broadcast_notes": "The public notice for the certification meeting specifies a physical location at the Board of Elections Office with no remote access or livestream details provided. Board of Elections meetings are not found on the county's official YouTube channel or Facebook page.",
+    "broadcast_source": "[Burke County Board of Elections](https://www.burkecounty-ga.gov/departments/board_of_elections_and_registration.php)"
   },
   {
     "fips": "13035",
@@ -249,7 +368,14 @@
     "registered_voters": "",
     "turnout_pct": "",
     "notes": "A Board of Elections meeting is scheduled for May 26, 2026, at 12:00 PM. As of May 21, no official notice or announcement of certification for the May 19 primary has been posted on the county website. Unofficial early voting data showed 2,182 ballots cast as of May 14.",
-    "source_url": "[County Elections Page](https://buttscountyga.com/departments-county/elections/)"
+    "source_url": "[County Elections Page](https://buttscountyga.com/departments-county/elections/)",
+    "broadcast_available": "No",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "Yes",
+    "broadcast_notes": "Board meetings are held in-person at the voter registration office. The official calendar and website notice mention meetings are \"open to the public\" but provide no remote access options.",
+    "broadcast_source": "[Butts County Elections Board Meeting](https://buttscountyga.com/events/elections-board-meeting/), [Butts County Elections Department](https://buttscountyga.com/departments-county/elections/)"
   },
   {
     "fips": "13037",
@@ -263,7 +389,14 @@
     "registered_voters": "",
     "turnout_pct": "",
     "notes": "As of May 21, 2026, no official announcement of certification has been found. The county website lacks a dedicated elections page, and certification typically occurs closer to the May 25 statutory deadline. Judge Annie Holder serves as the Superintendent of Elections.",
-    "source_url": "[Calhoun County Offices](https://calhouncountyga.com/offices/), [Albany Herald](https://albanyherald.com/calhouncounty/calhoun-county-primary-elections-sees-smooth-sailing/)"
+    "source_url": "[Calhoun County Offices](https://calhouncountyga.com/offices/), [Albany Herald](https://albanyherald.com/calhouncounty/calhoun-county-primary-elections-sees-smooth-sailing/)",
+    "broadcast_available": "",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "",
+    "broadcast_notes": "",
+    "broadcast_source": ""
   },
   {
     "fips": "13039",
@@ -277,7 +410,14 @@
     "registered_voters": "39,460",
     "turnout_pct": "20.32%",
     "notes": "The Camden County Board of Elections & Registration has a certification meeting scheduled for Friday, May 22, 2026, at 3:00 PM. Current results on the website are listed as 'Unofficial and Incomplete'.",
-    "source_url": "[Camden County Election Results](https://www.camdencountyga.gov/1013/Election-Results), [Board of Elections 2026 Meeting Schedule](https://www.co.camden.ga.us/AgendaCenter/ViewFile/Agenda/_12182025-606)"
+    "source_url": "[Camden County Election Results](https://www.camdencountyga.gov/1013/Election-Results), [Board of Elections 2026 Meeting Schedule](https://www.co.camden.ga.us/AgendaCenter/ViewFile/Agenda/_12182025-606)",
+    "broadcast_available": "Yes",
+    "broadcast_platform": "YouTube",
+    "broadcast_url": "[Camden BOC - YouTube](https://www.youtube.com/@CamdenCountyBOC/streams)",
+    "broadcast_meeting_id": "",
+    "in_person_only": "No",
+    "broadcast_notes": "The meeting is scheduled to be streamed on the Camden County Board of Commissioners YouTube channel. Past Board of Elections meetings have also been streamed there.",
+    "broadcast_source": "[Camden County Calendar](https://www.camdencountyga.gov/Calendar.aspx?EID=4409&month=5&year=2026&day=22&calType=0)"
   },
   {
     "fips": "13043",
@@ -291,7 +431,14 @@
     "registered_voters": "",
     "turnout_pct": "",
     "notes": "The Candler County Board of Registrars has a meeting scheduled for Tuesday, May 26, 2026, at 5:00 PM at the Candler County Probate Court. Results for the May 19 primary are currently pending official certification. May 25, 2026, is the statutory deadline and also Memorial Day.",
-    "source_url": "[County Elections Page](https://www.candlerco-ga.gov/1203/Elections-Voter-Registrar), [Voter Registrar Calendar](https://metter-candlercounty.com/better-community-county-voter-registrar.php)"
+    "source_url": "[County Elections Page](https://www.candlerco-ga.gov/1203/Elections-Voter-Registrar), [Voter Registrar Calendar](https://metter-candlercounty.com/better-community-county-voter-registrar.php)",
+    "broadcast_available": "Unknown",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "No",
+    "broadcast_notes": "The official county calendar lists a Board of Registrars meeting on May 26, 2026, at 5 PM at the Probate Court. While the Board of Commissioners livestreams on Twitch, no stream is listed for elections.",
+    "broadcast_source": "[Candler County Voter Registrar](https://metter-candlercounty.com/better-community-county-voter-registrar.php), [Candler County Government](https://metter-candlercounty.com/better-community-county-government)"
   },
   {
     "fips": "13045",
@@ -305,7 +452,14 @@
     "registered_voters": "86,635",
     "turnout_pct": "23.88%",
     "notes": "Results are currently labeled \"Unofficial and Incomplete.\" A Board of Elections meeting is scheduled for May 22, 2026, at 3:00 pm, likely for certification.",
-    "source_url": "[County Elections](https://www.carrollcountyga.gov/914/2026-Election-Results)"
+    "source_url": "[County Elections](https://www.carrollcountyga.gov/914/2026-Election-Results)",
+    "broadcast_available": "No",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "Yes",
+    "broadcast_notes": "Board meetings are held in-person at the Elections Office. Past records on YouTube consist of Board of Commissioners meetings, not Board of Elections. Agenda portal showed no livestream links.",
+    "broadcast_source": "[Carroll County Board of Elections & Registration](https://www.carrollcountyga.gov/342/Board-of-Elections-Registration), [Carroll County Calendar](https://www.carrollcountyga.gov/Calendar.aspx?EID=1631)"
   },
   {
     "fips": "13047",
@@ -319,7 +473,14 @@
     "registered_voters": "47,186",
     "turnout_pct": "23.53%",
     "notes": "As of May 21, 2026, results for the May 19 General Primary are posted as 'UNOFFICIAL & INCOMPLETE'. A 'Notice of Computation, Canvassing, and Consolidation' states the process began on May 19 at 7:00pm and continues until complete. No certification notice for this specific election has been posted yet. Registered voters: 47,186. Turnout: 23.53%.",
-    "source_url": "[County Elections Page](https://www.catoosacountyga.gov/departments/view-all-departments/elections-voter-registration)"
+    "source_url": "[County Elections Page](https://www.catoosacountyga.gov/departments/view-all-departments/elections-voter-registration)",
+    "broadcast_available": "",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "",
+    "broadcast_notes": "",
+    "broadcast_source": ""
   },
   {
     "fips": "13049",
@@ -333,7 +494,14 @@
     "registered_voters": "",
     "turnout_pct": "",
     "notes": "As of May 21, 2026, the official Charlton County elections website and meeting portal have not posted a notice of certification or results for the May 19, 2026 General Primary. The meeting portal does not show any Board of Elections meetings scheduled or held between the election date and May 21. News sources indicate 100% of precincts have reported unofficial results.",
-    "source_url": "[County Elections Page](https://charltoncountyga.us/263/Elections-and-Voter-Registration), [Meeting Portal](https://charltoncoga.portal.civicclerk.com/)"
+    "source_url": "[County Elections Page](https://charltoncountyga.us/263/Elections-and-Voter-Registration), [Meeting Portal](https://charltoncoga.portal.civicclerk.com/)",
+    "broadcast_available": "Unknown",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "Unknown",
+    "broadcast_notes": "No information regarding a livestream or broadcast for the Board of Elections certification meeting was found on the official county website or social media. Past Board of Elections meetings (e.g., 2022 certification) do not appear to have been broadcasted. Board of Commissioners meetings are streamed on YouTube, but this does not appear to extend to the Board of Elections.",
+    "broadcast_source": "[Charlton County Elections Page](https://charltoncountyga.us/263/Elections-and-Voter-Registration), [Charlton County Agenda Center](https://charltoncountyga.us/AgendaCenter)"
   },
   {
     "fips": "13051",
@@ -347,7 +515,14 @@
     "registered_voters": "",
     "turnout_pct": "",
     "notes": "A pre-certification meeting to review election returns is scheduled for May 22, 2026, at 12:00 PM via Zoom. The Board of Elections has stated that no votes to certify the election will be taken during this specific meeting. Unofficial results are currently available.",
-    "source_url": "[County Elections Page](https://elections.chathamcountyga.gov/)"
+    "source_url": "[County Elections Page](https://elections.chathamcountyga.gov/)",
+    "broadcast_available": "Yes",
+    "broadcast_platform": "Zoom",
+    "broadcast_url": "[Zoom Meeting](https://us02web.zoom.us/j/8919918655?omn=86290492722)",
+    "broadcast_meeting_id": "891 991 8655",
+    "in_person_only": "No",
+    "broadcast_notes": "The Pre-Certification meeting is at 12 PM on May 22, 2026, via Zoom. No votes will be taken during this meeting to certify the election. Registration may be required via the Zoom link.",
+    "broadcast_source": "[Chatham County Board of Elections](https://elections.chathamcountyga.gov/)"
   },
   {
     "fips": "13053",
@@ -361,7 +536,14 @@
     "registered_voters": "",
     "turnout_pct": "",
     "notes": "Election results are currently listed as \"Unofficial\" on the Georgia Secretary of State's portal and the county's official Facebook page (as of May 20, 2026). No certification meeting notice or official results document has been posted to the Board of Elections website. Statutory deadline for certification is May 25, 2026.",
-    "source_url": "[County Elections Page](https://ugoccc.com/board-of-elections), [Election Results](https://results.sos.ga.gov/results/public/chattahoochee-county-ga/elections/GeneralPrimary51926)"
+    "source_url": "[County Elections Page](https://ugoccc.com/board-of-elections), [Election Results](https://results.sos.ga.gov/results/public/chattahoochee-county-ga/elections/GeneralPrimary51926)",
+    "broadcast_available": "",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "",
+    "broadcast_notes": "",
+    "broadcast_source": ""
   },
   {
     "fips": "13055",
@@ -375,7 +557,14 @@
     "registered_voters": "15,226 (as of March 2026 special election)",
     "turnout_pct": "20.37% (estimated)",
     "notes": "As of May 21, 2026, the Georgia Secretary of State's website labels Chattooga County results as \"UNOFFICIAL\". All 5 precincts have completed election night reporting. No certification meeting notice was found on the county's official website or Agenda Center for the May 19 primary.",
-    "source_url": "[County Elections Page](https://results.sos.ga.gov/results/public/chattooga-county-ga/elections/GeneralPrimary51926)"
+    "source_url": "[County Elections Page](https://results.sos.ga.gov/results/public/chattooga-county-ga/elections/GeneralPrimary51926)",
+    "broadcast_available": "",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "",
+    "broadcast_notes": "",
+    "broadcast_source": ""
   },
   {
     "fips": "13057",
@@ -389,7 +578,14 @@
     "registered_voters": "205,465",
     "turnout_pct": "27.94%",
     "notes": "A Board of Elections Special Called Meeting is scheduled for May 22, 2026, at 5:00 PM to certify the May 19, 2026, election results. Results currently on the site are marked 'Unofficial and Incomplete'.",
-    "source_url": "[County Elections Page](https://cherokeegavotes.com), [Board Meeting Agendas](https://cherokeega.granicus.com/ViewPublisher.php?view_id=1)"
+    "source_url": "[County Elections Page](https://cherokeegavotes.com), [Board Meeting Agendas](https://cherokeega.granicus.com/ViewPublisher.php?view_id=1)",
+    "broadcast_available": "Unknown",
+    "broadcast_platform": "County Portal (Granicus)",
+    "broadcast_url": "[County Portal](https://cherokeega.granicus.com/ViewPublisher.php?view_id=1)",
+    "broadcast_meeting_id": "",
+    "in_person_only": "No",
+    "broadcast_notes": "While Cherokee County generally livestreams Board of Elections meetings via its Granicus portal, historical records from the Board's website indicate that certification meetings held at the Elections Office often have 'No Live Stream'. The agenda for the May 22, 2026 certification meeting does not provide a remote link.",
+    "broadcast_source": "[Cherokee County Board of Elections Meetings](https://cherokeegavotes.com/board/), [Cherokee County Granicus Portal](https://cherokeega.granicus.com/ViewPublisher.php?view_id=1)"
   },
   {
     "fips": "13059",
@@ -403,7 +599,14 @@
     "registered_voters": "",
     "turnout_pct": "",
     "notes": "As of May 21, 2026, results are still listed as UNOFFICIAL. A special certification meeting for the May 19 primary results is scheduled for Friday, May 22, 2026, at 5:30 PM. Ballots cast total derived from summing top-level contest votes (e.g., US Senate Rep/Dem).",
-    "source_url": "[County Elections Page](https://www.accgov.com/elections), [Board of Elections Calendar](https://www.accgov.com/Calendar.aspx?EID=29991), [Election Results](https://results.sos.ga.gov/results/public/clarke-county-ga/elections/GeneralPrimary51926)"
+    "source_url": "[County Elections Page](https://www.accgov.com/elections), [Board of Elections Calendar](https://www.accgov.com/Calendar.aspx?EID=29991), [Election Results](https://results.sos.ga.gov/results/public/clarke-county-ga/elections/GeneralPrimary51926)",
+    "broadcast_available": "Yes",
+    "broadcast_platform": "YouTube",
+    "broadcast_url": "[Athens-Clarke County YouTube](https://www.youtube.com/@accgov)",
+    "broadcast_meeting_id": "",
+    "in_person_only": "No",
+    "broadcast_notes": "Board of Elections meetings are broadcast live on the county's YouTube channel. Links for live viewing are typically posted to the website and Facebook page before each meeting.",
+    "broadcast_source": "[Board of Elections Page](https://www.accgov.com/293/Board-of-Elections), [Athens-Clarke County Elections Department](https://www.accgov.com/elections)"
   },
   {
     "fips": "13061",
@@ -417,7 +620,14 @@
     "registered_voters": "",
     "turnout_pct": "",
     "notes": "The official county website lists the Board of Elections under its 'Boards & Commissions' section but does not provide specific election results, certification notices, or separate meeting documents for the elections board. No mention of the May 19, 2026 certification was found on the site as of May 21, 2026.",
-    "source_url": "[County Elections Page](https://www.claycountyga.net/boards-and-commissions)"
+    "source_url": "[County Elections Page](https://www.claycountyga.net/boards-and-commissions)",
+    "broadcast_available": "",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "",
+    "broadcast_notes": "",
+    "broadcast_source": ""
   },
   {
     "fips": "13063",
@@ -431,7 +641,14 @@
     "registered_voters": "192,580",
     "turnout_pct": "2.03%",
     "notes": "Results are currently listed as 'Unofficial' on the county website. A Special Called Board Meeting is scheduled for May 22, 2026, which is likely for reconciliation/pre-certification. Voter turnout for the Democratic primary was reported as 2.03% (based on 192,580 registered voters), but this appears to be a partial figure or specific to the Democratic contest as shown in the screenshot. Total ballots cast across Republican (3,803 for US Senate, 3,886 for Governor) and Democratic (41,798 for US Senate) contests were retrieved from the unofficial results page.",
-    "source_url": "[Clayton County Election Results](https://www.claytoncountyga.gov/government/elections-and-registration/election-results/may-19-2026-general-primary-election/), [Clayton County Elections Home](https://www.claytoncountyga.gov/government/elections-and-registration/)"
+    "source_url": "[Clayton County Election Results](https://www.claytoncountyga.gov/government/elections-and-registration/election-results/may-19-2026-general-primary-election/), [Clayton County Elections Home](https://www.claytoncountyga.gov/government/elections-and-registration/)",
+    "broadcast_available": "No",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "Yes",
+    "broadcast_notes": "The official meeting notice on the county website specifies the meeting location at the Clayton County Elections Center with no mention of a livestream or remote access option. Past Board of Elections meetings have been held in-person only, and the county's YouTube channel (Clayton County Access TV) does not show a history of streaming these specific board meetings.",
+    "broadcast_source": "[Clayton County Elections and Registration](https://www.claytoncountyga.gov/government/elections-and-registration/)"
   },
   {
     "fips": "13065",
@@ -445,7 +662,14 @@
     "registered_voters": "",
     "turnout_pct": "",
     "notes": "No official certification notice or primary results found on the county website as of May 21, 2026. The official website lacks a dedicated elections page. Statutory deadline for certification is May 25, 2026.",
-    "source_url": "[Clinch County Elections](https://clinchcountyga.gov/)"
+    "source_url": "[Clinch County Elections](https://clinchcountyga.gov/)",
+    "broadcast_available": "",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "",
+    "broadcast_notes": "",
+    "broadcast_source": ""
   },
   {
     "fips": "13067",
@@ -459,7 +683,14 @@
     "registered_voters": "",
     "turnout_pct": "",
     "notes": "The Board of Elections has a Regular/Certification meeting scheduled for Tuesday, May 26, 2026. Technical issues with voter check-in equipment on election day led to a court order extending voting hours at 11 precincts.",
-    "source_url": "[County Elections](https://www.cobbcounty.gov/elections), [Board of Elections](https://www.cobbcounty.gov/elections/about-elections-voter-registration/board-elections-registration), [Certification Meeting Event](https://www.cobbcounty.gov/events/2026-05-26board-elections-registration-regularcertification-meeting)"
+    "source_url": "[County Elections](https://www.cobbcounty.gov/elections), [Board of Elections](https://www.cobbcounty.gov/elections/about-elections-voter-registration/board-elections-registration), [Certification Meeting Event](https://www.cobbcounty.gov/events/2026-05-26board-elections-registration-regularcertification-meeting)",
+    "broadcast_available": "Yes",
+    "broadcast_platform": "YouTube, Facebook Live",
+    "broadcast_url": "[YouTube](https://www.youtube.com/@CobbCountyGovt/streams), [Facebook](https://www.facebook.com/CobbCountyGovernment/videos/)",
+    "broadcast_meeting_id": "",
+    "in_person_only": "No",
+    "broadcast_notes": "Meetings are live streamed and archived on the Cobb County Government YouTube channel and Facebook page. The certification meeting is scheduled for May 26, 2026.",
+    "broadcast_source": "[Cobb County Board of Elections Meetings](https://www.cobbcounty.gov/elections/about-elections-voter-registration/board-elections-registration)"
   },
   {
     "fips": "13069",
@@ -473,7 +704,14 @@
     "registered_voters": "Unknown",
     "turnout_pct": "Unknown",
     "notes": "As of late May 21, 2026, there is no official confirmation of certification for Coffee County, Georgia. The statutory deadline for certification in Georgia is May 25, 2026. Official links for Coffee County elections lead to the Secretary of State's portal or are currently unreachable. News reports from similar periods indicate certification typically occurs closer to the deadline. Unofficial results for the Coffee County, Tennessee primary (held May 5) were found but are not applicable to the Georgia primary.",
-    "source_url": "[Coffee County Elections Office](https://mvp.sos.ga.gov/s/county-election-offices)"
+    "source_url": "[Coffee County Elections Office](https://mvp.sos.ga.gov/s/county-election-offices)",
+    "broadcast_available": "",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "",
+    "broadcast_notes": "",
+    "broadcast_source": ""
   },
   {
     "fips": "13071",
@@ -487,7 +725,14 @@
     "registered_voters": "",
     "turnout_pct": "",
     "notes": "As of May 21, 2026, no certification notice or official final results for the May 19 primary have been posted on the Colquitt County elections website. The statutory deadline for county certification is May 25, 2026. Advance voting records indicate 2,141 in-person and 53 absentee ballots were returned as of May 15.",
-    "source_url": "[Colquitt County Elections](https://www.colquittcountyga.gov/elections/documents.php), [Colquitt County Registrar](https://www.colquittcountyga.gov/departments/registrar.php)"
+    "source_url": "[Colquitt County Elections](https://www.colquittcountyga.gov/elections/documents.php), [Colquitt County Registrar](https://www.colquittcountyga.gov/departments/registrar.php)",
+    "broadcast_available": "",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "",
+    "broadcast_notes": "",
+    "broadcast_source": ""
   },
   {
     "fips": "13073",
@@ -501,7 +746,14 @@
     "registered_voters": "",
     "turnout_pct": "",
     "notes": "The Board of Elections is scheduled to meet for the official certification of the May 19, 2026 primary results on Friday, May 22, 2026, at 4:00 PM at the Appling Warehouse. As of May 21, results remain uncertified. Unofficial data as of May 19 shows 14,161 advance voting ballots cast and 697 absentee ballots received.",
-    "source_url": "[County Elections Page](https://www.columbiacountyga.gov/318/Board-of-Elections), [Press Releases & Notices](https://www.columbiacountyga.gov/578/Press-Releases-Notices), [Computation & Certification Notice](https://www.columbiacountyga.gov/DocumentCenter/View/9407/Computation-Canvassing--Consolidation-Notice---May-19-2026)"
+    "source_url": "[County Elections Page](https://www.columbiacountyga.gov/318/Board-of-Elections), [Press Releases & Notices](https://www.columbiacountyga.gov/578/Press-Releases-Notices), [Computation & Certification Notice](https://www.columbiacountyga.gov/DocumentCenter/View/9407/Computation-Canvassing--Consolidation-Notice---May-19-2026)",
+    "broadcast_available": "No",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "Yes",
+    "broadcast_notes": "The official notice for the certification meeting specifies only the physical location at the Appling Warehouse. Local reporting indicates that Board of Elections meetings are not filmed.",
+    "broadcast_source": "[Board of Elections Meeting Notice](https://www.columbiacountyga.gov/DocumentCenter/View/9407), [404 Media Article](https://www.404media.co/inside-the-plan-to-use-ai-to-purge-voter-rolls/)"
   },
   {
     "fips": "13075",
@@ -515,7 +767,14 @@
     "registered_voters": "",
     "turnout_pct": "",
     "notes": "The Cook County government website (cookcountyga.us) was under construction during the time of research. The Board of Elections holds monthly meetings every 4th Thursday at 10:00 a.m., which for May 2026 is May 28, 2026. However, some Georgia counties hold special certification meetings earlier. No explicit confirmation of certification for the May 19, 2026 primary was found on alternative platforms like Facebook or via general search results as of May 21, 2026. Statutory deadline for certification in Georgia is May 25, 2026.",
-    "source_url": "[Cook County Elections Office](https://cookcountyga.us/departments-and-offices/elections-office/), [Cook County GA Elections Facebook](https://www.facebook.com/p/Cook-County-GA-Elections-100064642003762/)"
+    "source_url": "[Cook County Elections Office](https://cookcountyga.us/departments-and-offices/elections-office/), [Cook County GA Elections Facebook](https://www.facebook.com/p/Cook-County-GA-Elections-100064642003762/)",
+    "broadcast_available": "",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "",
+    "broadcast_notes": "",
+    "broadcast_source": ""
   },
   {
     "fips": "13077",
@@ -529,7 +788,14 @@
     "registered_voters": "",
     "turnout_pct": "",
     "notes": "The Coweta County Board of Elections has a meeting scheduled for May 26, 2026, at 10:00 a.m., which is the likely date for election certification. The statutory deadline of May 25, 2026, is Memorial Day. Results currently reported by local media and the Secretary of State are unofficial. Unofficial results for the School Board At-Large District 1 race show Larry D. Robertson winning with 14,275 votes (51.26%).",
-    "source_url": "[Coweta County Board of Elections](https://www.coweta.ga.us/departments-services/departments-a-e/elections-and-voter-registration/board-of-elections)"
+    "source_url": "[Coweta County Board of Elections](https://www.coweta.ga.us/departments-services/departments-a-e/elections-and-voter-registration/board-of-elections)",
+    "broadcast_available": "Unknown",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "No",
+    "broadcast_notes": "The county website and meeting calendar do not provide a livestream link or remote attendance option for the Board of Elections. While the Board of Commissioners streams meetings live via a portal, the Board of Elections typically meets in-person at 87 Newnan Station Drive. Past records from April 2020 show a teleconference option was used during COVID-19, but no current livestream or Zoom links are listed on the official Elections page for 2026.",
+    "broadcast_source": "[Coweta County Board of Elections](https://www.coweta.ga.us/departments-services/departments-a-e/elections-and-voter-registration/board-of-elections)"
   },
   {
     "fips": "13079",
@@ -543,7 +809,14 @@
     "registered_voters": "8,641",
     "turnout_pct": "30.38%",
     "notes": "Board of Elections certification meeting is scheduled for May 22, 2026, at 10:00 AM. Current results are unofficial and incomplete.",
-    "source_url": "[County Elections Page](https://www.crawfordcountyga.org/elections-and-registration/), [Meeting Notice](https://www.crawfordcountyga.org/notice-board-of-election-meeting-changed-to-5-22-2026-at-10am/), [Election Summary Report](https://www.crawfordcountyga.org/wp-content/uploads/2026/05/ElectionSummaryReportRPT-Unofficial-and-Incomplete-ABM-AIP-All-Districts.pdf)"
+    "source_url": "[County Elections Page](https://www.crawfordcountyga.org/elections-and-registration/), [Meeting Notice](https://www.crawfordcountyga.org/notice-board-of-election-meeting-changed-to-5-22-2026-at-10am/), [Election Summary Report](https://www.crawfordcountyga.org/wp-content/uploads/2026/05/ElectionSummaryReportRPT-Unofficial-and-Incomplete-ABM-AIP-All-Districts.pdf)",
+    "broadcast_available": "No",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "Yes",
+    "broadcast_notes": "The meeting notice specifies it will be held at the Election Office. Past meeting schedules and the Facebook page do not mention or provide livestream links for Board of Elections meetings.",
+    "broadcast_source": "[Crawford County Board of Elections](https://www.crawfordcountyga.org/notice-board-of-election-meeting-changed-to-5-22-2026-at-10am/), [Crawford County Board of Elections Facebook](https://www.facebook.com/p/Crawford-County-Board-of-Elections-61552214882869/)"
   },
   {
     "fips": "13081",
@@ -557,7 +830,14 @@
     "registered_voters": "",
     "turnout_pct": "",
     "notes": "The official Crisp County elections website (crispcounty.com) was unreachable at the time of research. No official announcement or news report regarding certification for the May 19, 2026 primary was found as of May 21, 2026. Georgia's statutory certification deadline is May 25, 2026.",
-    "source_url": "[Crisp County Elections](https://crispcounty.com/elections-voter-registration)"
+    "source_url": "[Crisp County Elections](https://crispcounty.com/elections-voter-registration)",
+    "broadcast_available": "",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "",
+    "broadcast_notes": "",
+    "broadcast_source": ""
   },
   {
     "fips": "13083",
@@ -571,7 +851,14 @@
     "registered_voters": "11,879",
     "turnout_pct": "21.27%",
     "notes": "The Dade County Board of Elections has a special called meeting scheduled for May 22, 2026, at 9:00 AM to certify the May 19, 2026 General Primary election results. As of May 21, 2026, the results are unofficial and incomplete. A District 1 Commission race is headed to a runoff.",
-    "source_url": "[County Elections](https://www.dadecounty-ga.gov/CivicAlerts.aspx?AID=121), [Certification Meeting Notice](https://www.dadecounty-ga.gov/DocumentCenter/View/3159), [Unofficial Results](https://www.dadecounty-ga.gov/DocumentCenter/View/3156)"
+    "source_url": "[County Elections](https://www.dadecounty-ga.gov/CivicAlerts.aspx?AID=121), [Certification Meeting Notice](https://www.dadecounty-ga.gov/DocumentCenter/View/3159), [Unofficial Results](https://www.dadecounty-ga.gov/DocumentCenter/View/3156)",
+    "broadcast_available": "No",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "Yes",
+    "broadcast_notes": "Meeting notice states it is open to the public but does not provide livestream links. The county has posted election result videos to Facebook in the past, but not a full board meeting stream.",
+    "broadcast_source": "[Certification Meeting Notice](https://www.dadecounty-ga.gov/DocumentCenter/View/3159), [Elections & Voting Page](https://www.dadecounty-ga.gov/241/Elections-Voting)"
   },
   {
     "fips": "13085",
@@ -585,7 +872,14 @@
     "registered_voters": "25,703 (as of 4/16/2026)",
     "turnout_pct": "~24.5% (estimated)",
     "notes": "As of May 21, 2026 at 7:49 PM local time, the Dawson County elections website and results portal still display 'UNOFFICIAL RESULTS' from the May 19 primary. While the Board of Elections regularly meets on the third Thursday of the month (which is today), no official certification announcement or updated results have been posted. The statutory deadline for certification in Georgia is May 25, 2026.",
-    "source_url": "[Dawson County Board of Elections](https://www.dawsonelections.com), [Election Results Portal](https://app.enhancedvoting.com/results/public/dawson-county-ga/elections/GeneralPrimary51926)"
+    "source_url": "[Dawson County Board of Elections](https://www.dawsonelections.com), [Election Results Portal](https://app.enhancedvoting.com/results/public/dawson-county-ga/elections/GeneralPrimary51926)",
+    "broadcast_available": "",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "",
+    "broadcast_notes": "",
+    "broadcast_source": ""
   },
   {
     "fips": "13087",
@@ -599,7 +893,14 @@
     "registered_voters": "",
     "turnout_pct": "",
     "notes": "A Board of Elections meeting to certify the May 19, 2026 primary results is scheduled for Friday, May 22, 2026, at 4:00 p.m. at the Elections Office (Courthouse Annex). A Risk Limiting Audit (RLA) is also scheduled to begin on May 28, 2026.",
-    "source_url": "[County Elections Page](https://www.decaturcountyga.gov/departments-agencies/elections-office/)"
+    "source_url": "[County Elections Page](https://www.decaturcountyga.gov/departments-agencies/elections-office/)",
+    "broadcast_available": "Unknown",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "Yes",
+    "broadcast_notes": "The Board of Elections meets physically at the Courthouse Annex, 122 W. Water St. No evidence of a livestream was found on the official website or social media.",
+    "broadcast_source": "[Decatur County Elections Office](https://www.decaturcountyga.gov/departments-agencies/elections-office/)"
   },
   {
     "fips": "13089",
@@ -613,7 +914,14 @@
     "registered_voters": "495,076",
     "turnout_pct": "35.21%",
     "notes": "The DeKalb County Board of Registration and Elections is scheduled to meet to certify the May 19, 2026 General Primary results on Tuesday, May 26, 2026, at 12:00 p.m. As of May 21, results remain 'Unofficial and Incomplete'.",
-    "source_url": "[County Elections Page](https://dekalbcountyga.gov/departments/voter-registration-and-elections/election-results), [Certification Meeting Notice](https://dekalbcountyga.gov/sites/default/files/2026-05/Notice_May%2026%202026%20BRE%20Scheduled%20Meeting%20Notice_05052026_FINAL.pdf), [Election Summary Report](https://dekalbcountyga.gov/sites/default/files/2026-05/ElectionSummaryReportRPT_05_20_00_51.pdf)"
+    "source_url": "[County Elections Page](https://dekalbcountyga.gov/departments/voter-registration-and-elections/election-results), [Certification Meeting Notice](https://dekalbcountyga.gov/sites/default/files/2026-05/Notice_May%2026%202026%20BRE%20Scheduled%20Meeting%20Notice_05052026_FINAL.pdf), [Election Summary Report](https://dekalbcountyga.gov/sites/default/files/2026-05/ElectionSummaryReportRPT_05_20_00_51.pdf)",
+    "broadcast_available": "Yes",
+    "broadcast_platform": "County Portal (DCTV / IBM Video)",
+    "broadcast_url": "[DCTV BRE Channel](https://video.ibm.com/channel/xUJgKs6n2VW)",
+    "broadcast_meeting_id": "",
+    "in_person_only": "No",
+    "broadcast_notes": "The meeting is livestreamed on DCTV's IBM Video (UStream) channel. Regular board meetings are also typically aired on DCTV Channel 23 and posted to the county's YouTube channel.",
+    "broadcast_source": "[DeKalb County Board of Registration and Elections Meetings Page](https://dekalbcountyga.gov/departments/voter-registration-and-elections/leadership-board-members-meetings)"
   },
   {
     "fips": "13091",
@@ -627,7 +935,14 @@
     "registered_voters": "",
     "turnout_pct": "",
     "notes": "The official Dodge County elections website only shows unofficial advanced and absentee voting totals as of May 15, 2026 (1,697 total ballots). No notice of certification for the May 19, 2026 primary was found as of May 21, 2026. The statutory deadline for certification in Georgia is May 25, 2026.",
-    "source_url": "[County Elections Page](https://dodgecountyga.com/elections/)"
+    "source_url": "[County Elections Page](https://dodgecountyga.com/elections/)",
+    "broadcast_available": "",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "",
+    "broadcast_notes": "",
+    "broadcast_source": ""
   },
   {
     "fips": "13093",
@@ -641,7 +956,14 @@
     "registered_voters": "",
     "turnout_pct": "",
     "notes": "No certification announcement, board meeting minutes for May 2026, or official results were found on the Dooly County elections website as of May 21, 2026. Certification is likely pending ahead of the May 25 statutory deadline.",
-    "source_url": "[County Elections](https://doolycountyga.com/elections/), [Board Minutes](https://doolycountyga.com/dooly-county-board-of-elections-meeting-minutes/)"
+    "source_url": "[County Elections](https://doolycountyga.com/elections/), [Board Minutes](https://doolycountyga.com/dooly-county-board-of-elections-meeting-minutes/)",
+    "broadcast_available": "",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "",
+    "broadcast_notes": "",
+    "broadcast_source": ""
   },
   {
     "fips": "13095",
@@ -655,7 +977,14 @@
     "registered_voters": "",
     "turnout_pct": "",
     "notes": "As of May 21, 2026, the Dougherty County website does not contain any announcement or document confirming the certification of the May 19, 2026 primary results. The Board of Elections is scheduled to meet on the third Wednesday of every month (May 20, 2026), but no minutes or results from that meeting have been posted.",
-    "source_url": "[Dougherty County Elections](https://www.dougherty.ga.us/Government/Dougherty-County-Departments/Voter-Registration-and-Elections), [Current Election Page](https://www.dougherty.ga.us/Government/Dougherty-County-Departments/Voter-Registration-and-Elections/Current-Election)"
+    "source_url": "[Dougherty County Elections](https://www.dougherty.ga.us/Government/Dougherty-County-Departments/Voter-Registration-and-Elections), [Current Election Page](https://www.dougherty.ga.us/Government/Dougherty-County-Departments/Voter-Registration-and-Elections/Current-Election)",
+    "broadcast_available": "",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "",
+    "broadcast_notes": "",
+    "broadcast_source": ""
   },
   {
     "fips": "13097",
@@ -669,7 +998,14 @@
     "registered_voters": "",
     "turnout_pct": "",
     "notes": "Certification of the May 19, 2026 primary is scheduled for Tuesday, May 26, 2026, at 5:00 PM at the Douglas County Courthouse. A risk-limiting audit is scheduled for May 29, 2026. May 25, 2026 is Memorial Day.",
-    "source_url": "[County Elections Page](https://www.douglascountyga.gov/274/Elections-Voter-Registration)"
+    "source_url": "[County Elections Page](https://www.douglascountyga.gov/274/Elections-Voter-Registration)",
+    "broadcast_available": "Unknown",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "No",
+    "broadcast_notes": "The Board of Elections meeting for certification is scheduled for May 26, 2026, at 5:00 PM at the Douglas County Courthouse. No livestream details were provided in the official notice. Past meetings have been posted to YouTube but recent election board meetings are not consistently streamed live.",
+    "broadcast_source": "[Elections & Voter Registration | Douglas County, GA](https://www.douglascountyga.gov/274/Elections-Voter-Registration), [Board Meetings | Douglas County, GA](https://www.douglascountyga.gov/550/Board-Meetings)"
   },
   {
     "fips": "13099",
@@ -683,7 +1019,14 @@
     "registered_voters": "",
     "turnout_pct": "",
     "notes": "As of late May 21, 2026, no official announcement of certification was found on the Early County website. The Board of Elections meets regularly on the 2nd Wednesday of each month, but certification typically occurs at a special meeting following the election. The statutory deadline is May 25, 2026.",
-    "source_url": "[County Elections](https://www.earlycountyga.org/board-of-elections), [Agenda & Minutes](https://www.earlycountyga.org/agenda-minutes)"
+    "source_url": "[County Elections](https://www.earlycountyga.org/board-of-elections), [Agenda & Minutes](https://www.earlycountyga.org/agenda-minutes)",
+    "broadcast_available": "",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "",
+    "broadcast_notes": "",
+    "broadcast_source": ""
   },
   {
     "fips": "13101",
@@ -697,7 +1040,14 @@
     "registered_voters": "",
     "turnout_pct": "",
     "notes": "The certification of the May 19, 2026 General Primary Election is scheduled to take place on Tuesday, May 26, 2026, at 5:00 P.M. at the Echols County Elections office. A Risk Limiting Audit is scheduled for May 29, 2026.",
-    "source_url": "[County Elections Page](https://echolscountyga.com/departments/registrar-vote/)"
+    "source_url": "[County Elections Page](https://echolscountyga.com/departments/registrar-vote/)",
+    "broadcast_available": "No",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "Yes",
+    "broadcast_notes": "The county's election notices specify that certification and related events are open to public viewing at the Elections office in Statenville, but there is no mention of a broadcast or livestream.",
+    "broadcast_source": "[Echols County Election Notices](https://echolscountyga.com/departments/registrar-vote/#hbs-election-notices)"
   },
   {
     "fips": "13103",
@@ -711,7 +1061,14 @@
     "registered_voters": "Nearly 50,000",
     "turnout_pct": "22.6%",
     "notes": "Results remain unofficial. The Board of Elections is scheduled to certify the results during its meeting on Tuesday, May 26, 2026, at 9:30 AM. Reported turnout was 22.6%.",
-    "source_url": "[County Elections Page](https://www.effinghamcounty.org/248/Elections-Registration), [Effingham Herald](https://www.effinghamherald.net/local/effingham-county-primary-burdette-anderson-win-results-county-commission-district-2-board-of-education-guyton-city-council/)"
+    "source_url": "[County Elections Page](https://www.effinghamcounty.org/248/Elections-Registration), [Effingham Herald](https://www.effinghamherald.net/local/effingham-county-primary-burdette-anderson-win-results-county-commission-district-2-board-of-education-guyton-city-council/)",
+    "broadcast_available": "Unknown",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "No",
+    "broadcast_notes": "The Effingham County Board of Elections next scheduled meeting is Tuesday, May 26, 2026, at 9:30 AM. While the Board of Commissioners and Planning Board meetings are regularly livestreamed on the county's YouTube channel, there is no evidence or specific notice indicating that Board of Elections meetings are broadcast or livestreamed. Past Board of Elections agendas are posted in the county's meeting portal but do not include video/audio links.",
+    "broadcast_source": "[Effingham County Elections & Registration](https://www.effinghamcounty.org/248/Elections-Registration), [Effingham County Meeting Portal](https://meetings.municode.com/PublishPage/index?cid=EFFINGHAM&ppid=3f5e8270-7f24-410e-b3ea-136c805afa2e&p=1), [Effingham County YouTube](https://www.youtube.com/@EffinghamCountyGA/streams)"
   },
   {
     "fips": "13105",
@@ -725,7 +1082,14 @@
     "registered_voters": "",
     "turnout_pct": "",
     "notes": "As of May 21, 2026, the official website still shows election data 'As of May 18, 2026' and only lists advance/early voting totals. No certification announcement or official final results were found. Unofficial results with 'all precincts reporting' were reported by local media on election night.",
-    "source_url": "[County Elections](https://elbertga.us/elections-registration.php)"
+    "source_url": "[County Elections](https://elbertga.us/elections-registration.php)",
+    "broadcast_available": "",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "",
+    "broadcast_notes": "",
+    "broadcast_source": ""
   },
   {
     "fips": "13107",
@@ -739,7 +1103,14 @@
     "registered_voters": "",
     "turnout_pct": "",
     "notes": "As of May 21, 2026, there is no explicit announcement on the Emanuel County website or local news that the May 19 primary results have been certified. Official county policy states that the board meets 'a few days later' to certify, and state law requires certification by the following Monday (May 25, 2026). No certification meeting was listed on the county calendar for May 20-22. Unofficial results for 2026 races are not yet posted in the county's election archive.",
-    "source_url": "[County Elections Page](https://www.emanuelco-ga.gov/151/Elections-and-Voter-Registration), [Board of Elections](https://www.emanuelco-ga.gov/333/Board-of-Elections)"
+    "source_url": "[County Elections Page](https://www.emanuelco-ga.gov/151/Elections-and-Voter-Registration), [Board of Elections](https://www.emanuelco-ga.gov/333/Board-of-Elections)",
+    "broadcast_available": "Unknown",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "No",
+    "broadcast_notes": "The county website states that Board of Elections meetings are open to the public and that the board meets a few days after the election to certify results, but no livestream information or links were provided on the official elections or agenda pages.",
+    "broadcast_source": "[Elections and Voter Registration](https://www.emanuelco-ga.gov/151/Elections-and-Voter-Registration), [Board of Elections](https://www.emanuelco-ga.gov/333/Board-of-Elections)"
   },
   {
     "fips": "13109",
@@ -753,7 +1124,14 @@
     "registered_voters": "",
     "turnout_pct": "",
     "notes": "As of May 21, 2026, there is no official notice on the Evans County elections website or in local news confirming that the May 19, 2026 primary results have been certified. The statutory deadline for county certification in Georgia is May 25, 2026.",
-    "source_url": "[Evans County Elections](https://evanscounty.org/departments/elections/)"
+    "source_url": "[Evans County Elections](https://evanscounty.org/departments/elections/)",
+    "broadcast_available": "",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "",
+    "broadcast_notes": "",
+    "broadcast_source": ""
   },
   {
     "fips": "13111",
@@ -767,7 +1145,14 @@
     "registered_voters": "",
     "turnout_pct": "",
     "notes": "As of May 21, 2026, no official notice of certification has been posted on the Fannin County Board of Elections website. The Board holds regular meetings on the first Monday of each month (the next being June 1, 2026), but typically holds a special meeting for election certification before the statutory deadline of May 25, 2026. Preliminary data from the 'Daily Absentee Statistical Reporting' for May 19 showed 156 accepted absentee-by-mail ballots and 2,596 advanced in-person votes, but total ballots cast for the primary have not yet been officially reported.",
-    "source_url": "[County Elections](https://fannincountyga.com/board-of-elections/)"
+    "source_url": "[County Elections](https://fannincountyga.com/board-of-elections/)",
+    "broadcast_available": "No",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "Yes",
+    "broadcast_notes": "Board of Elections meetings are held in person at the Board of Elections office. No evidence of a livestream was found on the official website or social media. Past listings indicate meetings are in-person only.",
+    "broadcast_source": "[Fannin County Board of Elections](https://fannincountyga.com/board-of-elections/), [Georgia Peanut Gallery Meeting List](https://georgiapeanutgallery.org/2021/03/01/march-2021-board-of-elections-meeting-list/)"
   },
   {
     "fips": "13113",
@@ -781,7 +1166,14 @@
     "registered_voters": "91,385",
     "turnout_pct": "35.8%",
     "notes": "A Special Called Board Meeting is scheduled for Friday, May 22, 2026, at 3:00 P.M. to review precinct returns and canvass results. Official county and Secretary of State websites currently label results as unofficial. Reported ballots cast sum of US Senate primary contests (15,975 Rep + 16,742 Dem).",
-    "source_url": "[Fayette County Elections](https://fayettecountyga.gov/departments/elections/index.php), [Secretary of State Results](https://results.sos.ga.gov/results/public/fayette-county-ga/elections/GeneralPrimary51926)"
+    "source_url": "[Fayette County Elections](https://fayettecountyga.gov/departments/elections/index.php), [Secretary of State Results](https://results.sos.ga.gov/results/public/fayette-county-ga/elections/GeneralPrimary51926)",
+    "broadcast_available": "Yes",
+    "broadcast_platform": "YouTube",
+    "broadcast_url": "[Fayette County BOC YouTube](https://www.youtube.com/@FayetteCountyBOC/streams)",
+    "broadcast_meeting_id": "",
+    "in_person_only": "No",
+    "broadcast_notes": "Board of Elections meetings are livestreamed to the Fayette County BOC YouTube channel. No specific link for the May 22 meeting is available yet, but past meetings are archived there.",
+    "broadcast_source": "[Fayette County Board of Elections](https://fayettecountyga.gov/government/boards_commissions/board_of_elections/index.php)"
   },
   {
     "fips": "13115",
@@ -795,7 +1187,14 @@
     "registered_voters": "63,584",
     "turnout_pct": "26.70%",
     "notes": "A special called meeting to certify the May 19, 2026 General Primary results is scheduled for Friday, May 22, 2026, at 5:15 p.m. As of May 21, 2026, results remain unofficial and incomplete.",
-    "source_url": "[County Elections Page](https://www.floydcountyga.gov/elections/page/election-results), [Meeting Notice](https://www.floydcountyga.gov/elections/page/meeting-notices)"
+    "source_url": "[County Elections Page](https://www.floydcountyga.gov/elections/page/election-results), [Meeting Notice](https://www.floydcountyga.gov/elections/page/meeting-notices)",
+    "broadcast_available": "No",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "Yes",
+    "broadcast_notes": "The meeting notice explicitly states the meeting is 'open to the public' at the Floyd County Election Center with no mention of a livestream or remote option. Past Board of Elections meetings were on Zoom during the pandemic but current notices for elections meetings do not provide links. Board of Commissioners meetings are streamed, but Board of Elections meetings typically are not.",
+    "broadcast_source": "[Floyd County Board of Elections & Registration - Special Called Meeting](https://www.floydcountyga.gov/bc-board-elections/page/floyd-county-board-elections-registration-special-called-meeting-44)"
   },
   {
     "fips": "13117",
@@ -809,7 +1208,14 @@
     "registered_voters": "",
     "turnout_pct": "",
     "notes": "The Forsyth County Board of Voter Registrations & Elections is scheduled to certify the May 19, 2026 General Primary results on Tuesday, May 26, 2026, at 9 a.m. at the Voter Registrations & Elections Office in Cumming, GA. Results remain unofficial until that time.",
-    "source_url": "[County Elections Page](https://www.forsythco.com/Departments-Offices/Voter-Registrations-Elections/Elections-Board), [Certification Notice](https://www.forsythco.com/LinkClick.aspx?fileticket=eN9RECzK4gk%3D&portalid=0)"
+    "source_url": "[County Elections Page](https://www.forsythco.com/Departments-Offices/Voter-Registrations-Elections/Elections-Board), [Certification Notice](https://www.forsythco.com/LinkClick.aspx?fileticket=eN9RECzK4gk%3D&portalid=0)",
+    "broadcast_available": "No",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "Yes",
+    "broadcast_notes": "While the board recently voted to start recording meetings, no livestream link is provided on the agenda. TV Forsyth live streams only BOC, Planning, and Zoning meetings.",
+    "broadcast_source": "[Forsyth County Meetings](https://www.forsythco.com/Meetings), [Meeting Agenda May 26 2026](https://www.forsythco.com/portals/0/PNM/Meeting/5149/ec240f14-5f6e-47f0-9786-122a52eeda9f.pdf)"
   },
   {
     "fips": "13119",
@@ -823,7 +1229,14 @@
     "registered_voters": "",
     "turnout_pct": "",
     "notes": "The Franklin County Board of Elections has a certification meeting scheduled for May 22, 2026, at 12:15 PM. As of May 21, 2026, the results have not yet been certified.",
-    "source_url": "[County Elections Page](https://www.franklincountyga.gov/1301/Elections-Registration), [Certification Meeting Agenda](https://www.franklincountyga.gov/AgendaCenter/ViewFile/Agenda/_05222026-237)"
+    "source_url": "[County Elections Page](https://www.franklincountyga.gov/1301/Elections-Registration), [Certification Meeting Agenda](https://www.franklincountyga.gov/AgendaCenter/ViewFile/Agenda/_05222026-237)",
+    "broadcast_available": "No",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "Yes",
+    "broadcast_notes": "The election certification meeting is scheduled to be held in person at the Elections Office. No livestream or remote broadcast option is mentioned on the county website or meeting agenda.",
+    "broadcast_source": "[Franklin County Elections & Registration](https://www.franklincountyga.gov/1301/Elections-Registration)"
   },
   {
     "fips": "13121",
@@ -837,7 +1250,14 @@
     "registered_voters": "",
     "turnout_pct": "",
     "notes": "The Fulton County Board of Registration and Elections has scheduled a special called Pre-Certification Meeting for Friday, May 22, 2026, at 11 a.m. at the Fulton County Elections Hub and Operations Center to review documentation and results. Official certification has not yet occurred as of May 21, 2026. Unofficial results as of May 20 show 163,441 votes in the Democratic US Senate primary and 48,122 votes in the Republican US Senate primary.",
-    "source_url": "[Fulton County Board of Registration and Elections](https://www.fultoncountyga.gov/News/2026/05/20/Fulton-County-Board-of-Registration-and-Elections-Hold-Pre-Certification-Meeting), [Fulton County Election Results](https://results.enr.clarityelections.com/GA/Fulton/126194/)"
+    "source_url": "[Fulton County Board of Registration and Elections](https://www.fultoncountyga.gov/News/2026/05/20/Fulton-County-Board-of-Registration-and-Elections-Hold-Pre-Certification-Meeting), [Fulton County Election Results](https://results.enr.clarityelections.com/GA/Fulton/126194/)",
+    "broadcast_available": "Yes",
+    "broadcast_platform": "YouTube",
+    "broadcast_url": "[FGTV YouTube](https://www.youtube.com/user/FultonGovernmentTV)",
+    "broadcast_meeting_id": "",
+    "in_person_only": "No",
+    "broadcast_notes": "Meetings held at the Elections Hub and Operations Center are live-streamed on FGTV's YouTube Channel. The certification meeting is scheduled for May 26, 2026, at 3 p.m.",
+    "broadcast_source": "[Fulton County Registration and Elections Board](https://www.fultoncountyga.gov/inside-fulton-county/fulton-county-departments/registration-and-elections/registration-and-elections-board)"
   },
   {
     "fips": "13123",
@@ -851,7 +1271,14 @@
     "registered_voters": "23,768",
     "turnout_pct": "",
     "notes": "The Gilmer County Board of Elections and Registration is scheduled to meet for election certification on Friday, May 22, 2026, as discussed in their February 23, 2026 meeting (moving it from the May 25 Memorial Day holiday). As of May 21, results remain unofficial.",
-    "source_url": "[County Elections Page](https://gilmercounty-ga.gov/voter-registration/), [Gilmer Board Meeting Video](https://www.youtube.com/watch?v=jRvN7nSkNB8)"
+    "source_url": "[County Elections Page](https://gilmercounty-ga.gov/voter-registration/), [Gilmer Board Meeting Video](https://www.youtube.com/watch?v=jRvN7nSkNB8)",
+    "broadcast_available": "Unknown",
+    "broadcast_platform": "YouTube",
+    "broadcast_url": "[Gilmer Citizen Forum YouTube](https://www.youtube.com/@GilmerCitizenForum)",
+    "broadcast_meeting_id": "",
+    "in_person_only": "No",
+    "broadcast_notes": "A YouTube channel 'Gilmer Citizen Forum' has posted recordings of past board meetings, but there is no confirmation of a live broadcast for the certification meeting. The board discussed transparency and public observation but primarily in-person at the registrar's office.",
+    "broadcast_source": "[Board of Elections & Registration - Gilmer County Georgia](https://gilmercounty-ga.gov/voter-registration/), [Gilmer Citizen Forum YouTube](https://www.youtube.com/@GilmerCitizenForum)"
   },
   {
     "fips": "13125",
@@ -865,7 +1292,14 @@
     "registered_voters": "2,114",
     "turnout_pct": "30.42%",
     "notes": "Election results for the May 19, 2026 General Primary are marked as \"Official & Complete\" in the county's summary report generated on May 20, 2026 and posted to the county news on May 21, 2026.",
-    "source_url": "[County Elections Page](https://www.glascockcountyga.com/elections/page/2026-may-19-election-report)"
+    "source_url": "[County Elections Page](https://www.glascockcountyga.com/elections/page/2026-may-19-election-report)",
+    "broadcast_available": "",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "",
+    "broadcast_notes": "",
+    "broadcast_source": ""
   },
   {
     "fips": "13127",
@@ -879,7 +1313,14 @@
     "registered_voters": "61,241",
     "turnout_pct": "25.55%",
     "notes": "Certification is scheduled for a Special Called Meeting on Friday, May 22, 2026, at 3:00 PM. Results are currently marked as 'Unofficial and Incomplete'.",
-    "source_url": "[County Elections Page](https://www.glynncounty.org/government/departments/elections-voter-registration/election-results), [Board Meeting Agenda](https://granicus_production_attachments.s3.amazonaws.com/glynncounty/73b967231608c565d8d9b1f4b081dde30.html)"
+    "source_url": "[County Elections Page](https://www.glynncounty.org/government/departments/elections-voter-registration/election-results), [Board Meeting Agenda](https://granicus_production_attachments.s3.amazonaws.com/glynncounty/73b967231608c565d8d9b1f4b081dde30.html)",
+    "broadcast_available": "No",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "Yes",
+    "broadcast_notes": "The meeting agenda and notice provide no livestream or remote participation information, only a physical location. While the county streams Commission meetings to YouTube and its portal, Board of Elections meetings are archived on Granicus without live video buttons.",
+    "broadcast_source": "[Meeting Notice](https://www.glynncounty.org/events/2026-05-22special-called-primary-certification-meeting), [Meeting Agenda](https://glynncounty.granicus.com/AgendaViewer.php?view_id=10&event_id=923)"
   },
   {
     "fips": "13129",
@@ -893,7 +1334,14 @@
     "registered_voters": "40,157",
     "turnout_pct": "21.14%",
     "notes": "The Gordon County website currently only shows 'Unofficial and Incomplete' results for the May 19, 2026 primary as of May 21, 2026. A Risk Limiting Audit is scheduled for May 29, 2026. Turnout was 21.14% based on the unofficial report. No certification announcement or board meeting for certification was found on the site.",
-    "source_url": "[County Elections](https://www.gordoncountyga.gov/274/Board-of-Elections), [Election Information Archive](https://www.gordoncountyga.gov/Archive.aspx?AMID=60&Type=&ADID=), [Unofficial Results PDF](https://www.gordoncountyga.gov/Archive.aspx?ADID=755)"
+    "source_url": "[County Elections](https://www.gordoncountyga.gov/274/Board-of-Elections), [Election Information Archive](https://www.gordoncountyga.gov/Archive.aspx?AMID=60&Type=&ADID=), [Unofficial Results PDF](https://www.gordoncountyga.gov/Archive.aspx?ADID=755)",
+    "broadcast_available": "No",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "Yes",
+    "broadcast_notes": "The \"Computation and Canvassing Notice\" states that the process is open to the public at the Board of Elections office but does not provide a livestream or remote access option. Past Board of Elections meetings in the county's Agenda Center also lack video/media links, unlike Board of Commissioners meetings which are streamed to Vimeo.",
+    "broadcast_source": "[Gordon County Board of Elections Election Results and Information](https://www.gordoncountyga.gov/m/newsflash/Home/Detail/162), [Gordon County Agenda Center](https://www.gordoncountyga.gov/agendacenter)"
   },
   {
     "fips": "13131",
@@ -907,7 +1355,14 @@
     "registered_voters": "",
     "turnout_pct": "",
     "notes": "The Grady County Board of Elections has scheduled a pre-certification meeting for May 22, 2026, at 10:30 AM, followed immediately by the certification meeting for the May 19 primary results. As of May 21, the results are not yet certified. Early and absentee-by-mail data shows 1,547 ballots cast as of May 15.",
-    "source_url": "[County Elections](https://gradycountyga.gov/the-office-of-elections-registration/)"
+    "source_url": "[County Elections](https://gradycountyga.gov/the-office-of-elections-registration/)",
+    "broadcast_available": "No",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "Yes",
+    "broadcast_notes": "The meeting notice on the official county website states the certification meeting is held in person at the Elections Office in the Grady County courthouse, with no mention of a livestream.",
+    "broadcast_source": "[Grady County Elections & Registration](https://gradycountyga.gov/the-office-of-elections-registration/)"
   },
   {
     "fips": "13133",
@@ -921,7 +1376,14 @@
     "registered_voters": "17,242",
     "turnout_pct": "~10.0% (early/advanced only)",
     "notes": "The Board of Elections has a meeting scheduled for tomorrow, Friday, May 22, 2026, at 3:00 PM to certify the May 19, 2026 General Primary and Nonpartisan Election results. Unofficial election night reporting showed 2,836 ballots scanned. Daily activity reports indicate 3,182 total early/advanced ballots cast. Voter registration is approximately 17,242.",
-    "source_url": "[Greene County Board of Elections Agendas](https://greenecoga.portal.civicclerk.com/event/2405/files/agenda/5693), [Greene County Elections](https://www.greenecountyga.gov/1001/Elections)"
+    "source_url": "[Greene County Board of Elections Agendas](https://greenecoga.portal.civicclerk.com/event/2405/files/agenda/5693), [Greene County Elections](https://www.greenecountyga.gov/1001/Elections)",
+    "broadcast_available": "Unknown",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "Unknown",
+    "broadcast_notes": "The Board of Elections and Registration Regular Meeting is scheduled for May 22, 2026, at 3:00 PM at the Board of Elections Office. No livestream link or broadcast platform was confirmed.",
+    "broadcast_source": "[Greene County CivicClerk Portal](https://greenecoga.portal.civicclerk.com/)"
   },
   {
     "fips": "13135",
@@ -935,7 +1397,14 @@
     "registered_voters": "599,032",
     "turnout_pct": "25.30%",
     "notes": "Certification meeting is scheduled for May 26, 2026, at 10:00 AM. A precertification meeting is scheduled for May 22, 2026. Results are currently unofficial and incomplete.",
-    "source_url": "[County Elections](https://www.gwinnettcounty.com/government/departments/elections/election-results), [Public Meetings](https://www.gwinnettcounty.com/government/departments/elections/public-meetings/-/bacs/meetings/6/2026)"
+    "source_url": "[County Elections](https://www.gwinnettcounty.com/government/departments/elections/election-results), [Public Meetings](https://www.gwinnettcounty.com/government/departments/elections/public-meetings/-/bacs/meetings/6/2026)",
+    "broadcast_available": "Yes",
+    "broadcast_platform": "Webex",
+    "broadcast_url": "[Webex](https://gwinnettgov.webex.com)",
+    "broadcast_meeting_id": "",
+    "in_person_only": "No",
+    "broadcast_notes": "The meeting notice explicitly states 'View meeting at gwinnettgov.webex.com'. No specific meeting ID or passcode was provided on the public notice or agenda.",
+    "broadcast_source": "[Notice of Meeting](https://www.gwinnettcounty.com/static/upload/bac/6/20260526/n_95877_05.26.2026_BRE_Special_Called_Meeting_Notice___Certification.pdf), [Meeting Agenda](https://www.gwinnettcounty.com/static/upload/bac/6/20260526/a_38340_05.26.2026_BRE_Special_Called_Meeting_Agenda___Certification.pdf)"
   },
   {
     "fips": "13137",
@@ -949,7 +1418,14 @@
     "registered_voters": "31,611",
     "turnout_pct": "28.73%",
     "notes": "The Board of Elections meeting for certification was rescheduled and combined with a meeting on Friday, May 22, 2026, at 3:00 p.m. Results as of May 21 are listed as 'Unofficial and Incomplete'.",
-    "source_url": "[County Elections](https://www.habershamga.com/election-results.cfm), [Meeting Center](https://www.habershamga.com/agenda-center.cfm)"
+    "source_url": "[County Elections](https://www.habershamga.com/election-results.cfm), [Meeting Center](https://www.habershamga.com/agenda-center.cfm)",
+    "broadcast_available": "No",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "Yes",
+    "broadcast_notes": "The agenda and county website specify the meeting is held in-person at the Elections Office. No livestream or remote access options were found for Board of Elections meetings.",
+    "broadcast_source": "[Habersham County Calendar](https://www.habershamga.com/calendar?v=details&m=5&y=2026&d=22&t=meetings&i=5453), [Certification Meeting Agenda](https://www.habershamga.com/files/Meeting5453_AGENDA-May%2022-%202026%20Pre-Election%20Certification%20-%20Certification%20Meeting%20for%20the%20May%2019%202026%20GP-Special%20Elections.pdf)"
   },
   {
     "fips": "13139",
@@ -963,7 +1439,14 @@
     "registered_voters": "144,886",
     "turnout_pct": "25.92%",
     "notes": "Results are currently listed as \"Unofficial and Incomplete\" on the county website. A Board of Elections and Registration (BOER) review meeting is scheduled for May 22, 2026. Reported turnout of 25.92% reflects 37,550 voters out of 144,886 registered.",
-    "source_url": "[County Elections Page](https://www.hallcounty.org/1146/Election-Results), [Election Summary Report](https://www.hallcounty.org/DocumentCenter/View/22480)"
+    "source_url": "[County Elections Page](https://www.hallcounty.org/1146/Election-Results), [Election Summary Report](https://www.hallcounty.org/DocumentCenter/View/22480)",
+    "broadcast_available": "No",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "Yes",
+    "broadcast_notes": "The public notice for the May 22, 2026 meeting indicates it will be held in-person at the Hall County Government Center. While the county streams Board of Commissioners meetings on Vimeo, no livestream information was provided for the Board of Elections certification meeting.",
+    "broadcast_source": "[Hall County Public Notice](https://www.hallcounty.org/DocumentCenter/View/22195/BOER-REVIEW-MEETING-MAY-22-2026), [Hall County Online Meetings](https://www.hallcounty.org/1097/Online-Meetings)"
   },
   {
     "fips": "13141",
@@ -977,7 +1460,14 @@
     "registered_voters": "",
     "turnout_pct": "",
     "notes": "As of May 21, 2026, no notice of certification or specific board meeting for certification has been posted on the Hancock County elections website or its public meetings portal. The statutory deadline for Georgia counties to certify results is May 25, 2026.",
-    "source_url": "[County Elections](https://www.hancockcountyga.gov/board-of-elections)"
+    "source_url": "[County Elections](https://www.hancockcountyga.gov/board-of-elections)",
+    "broadcast_available": "Unknown",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "No",
+    "broadcast_notes": "No livestream or broadcast information found for the Hancock County Board of Elections. The board typically meets in person at the Youth Opportunity Center in Sparta, GA. Past Board of Commissioners meetings have been streamed to Facebook, but no evidence was found for the Board of Elections.",
+    "broadcast_source": "[Hancock County Board of Elections](https://www.hancockcountyga.gov/board-of-elections), [Hancock County Public Meetings Portal](https://hancock.app.redclayservices.com/)"
   },
   {
     "fips": "13143",
@@ -991,7 +1481,14 @@
     "registered_voters": "",
     "turnout_pct": "",
     "notes": "As of May 21, 2026, results remain unofficial on the Georgia Secretary of State website. The Haralson County website has posted information for the upcoming June 16, 2026, runoff election, but no formal certification notice or Board of Elections meeting minutes confirming certification were found. Statutory deadline is May 25, 2026.",
-    "source_url": "[Haralson County Election Central](https://www.haralsoncountyga.gov/election-central.cfm), [Georgia Secretary of State Unofficial Results](https://results.sos.ga.gov/results/public/haralson-county-ga/elections/GeneralPrimary51926)"
+    "source_url": "[Haralson County Election Central](https://www.haralsoncountyga.gov/election-central.cfm), [Georgia Secretary of State Unofficial Results](https://results.sos.ga.gov/results/public/haralson-county-ga/elections/GeneralPrimary51926)",
+    "broadcast_available": "Unknown",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "Unknown",
+    "broadcast_notes": "The county website and public notices for past elections (e.g., May 2024) indicate that the computation and canvassing of votes take place in person at the Board of Elections office. No livestream or remote access information for the Board of Elections specifically was found for the May 2026 primary. Board of Commissioners meetings are streamed on YouTube, but no evidence suggests Board of Elections meetings are included.",
+    "broadcast_source": "[Haralson County Board of Elections](https://www.haralsoncountyga.gov/board-of-elections.cfm), [Haralson County Election Central](https://www.haralsoncountyga.gov/election-central.cfm)"
   },
   {
     "fips": "13145",
@@ -1005,7 +1502,14 @@
     "registered_voters": "",
     "turnout_pct": "",
     "notes": "Certification meeting not yet listed; statutory deadline is May 25. Regular Board of Elections meetings were moved from 3rd to 2nd Tuesday of the month as of May 2026. Audit scheduled for May 29.",
-    "source_url": "[Harris County Agendas & Minutes](https://www.harriscountyga.gov/agendas-and-minutes/), [Harris County Board of Elections](https://www.harriscountyga.gov/board-of-elections-registration/)"
+    "source_url": "[Harris County Agendas & Minutes](https://www.harriscountyga.gov/agendas-and-minutes/), [Harris County Board of Elections](https://www.harriscountyga.gov/board-of-elections-registration/)",
+    "broadcast_available": "No",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "Yes",
+    "broadcast_notes": "Past Board of Elections certification meetings (e.g., May 2022, June 2022) were held in person at the Elections Office (757 Carver Circle, Hamilton) with no livestream or remote option provided.",
+    "broadcast_source": "[Harris County Board of Elections](https://www.harriscountyga.gov/board-of-elections-registration-2/), [Harris County YouTube Channel](https://www.youtube.com/@harriscountygeorgia-offici2082/streams)"
   },
   {
     "fips": "13147",
@@ -1019,7 +1523,14 @@
     "registered_voters": "19,430",
     "turnout_pct": "23.91%",
     "notes": "The Election Summary Report for the May 19, 2026 primary is currently marked as \"Unofficial and Incomplete\" (as of May 20, 2026). Additionally, a public notice for the Risk Limiting Audit indicates the audit is scheduled to begin on May 29, 2026.",
-    "source_url": "[County Elections Page](http://hartcountyga.gov/electionsboard.html)"
+    "source_url": "[County Elections Page](http://hartcountyga.gov/electionsboard.html)",
+    "broadcast_available": "Unknown",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "Unknown",
+    "broadcast_notes": "No information found regarding a livestream for the Board of Elections certification meeting. Past minutes and agendas do not mention remote access or broadcasting. The Board of Commissioners streams on YouTube, but no Board of Elections streams were found there.",
+    "broadcast_source": "[Hart County Board of Elections](http://hartcountyga.gov/electionsboard.html), [Hart County Board of Elections Minutes](http://hartcountyga.gov/electionsmins.html)"
   },
   {
     "fips": "13149",
@@ -1033,7 +1544,14 @@
     "registered_voters": "",
     "turnout_pct": "",
     "notes": "The Board of Elections has a meeting scheduled for May 22, 2026, at 5:00 PM, which is the likely time for certification. As of May 22, 2026 (12:01 AM UTC), no certification notice or official results for the May 19 primary have been posted on the county website.",
-    "source_url": "[County Elections](https://www.heardcountyga.com/voterBoard.html), [Election Results](https://www.heardcountyga.com/voterElectionResults.html)"
+    "source_url": "[County Elections](https://www.heardcountyga.com/voterBoard.html), [Election Results](https://www.heardcountyga.com/voterElectionResults.html)",
+    "broadcast_available": "No",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "Yes",
+    "broadcast_notes": "The Heard County Board of Elections meeting for certification on May 22, 2026, is listed as a regular in-person meeting. Public notices indicate that election processing and tabulation are open to public view at the office, but no livestreaming or remote access options were mentioned on the official website or social media.",
+    "broadcast_source": "[Heard County Board of Elections](https://www.heardcountyga.com/voterBoard.html), [Heard County Board of Elections Home](https://www.heardcountyga.com/voterReg.html)"
   },
   {
     "fips": "13151",
@@ -1047,7 +1565,14 @@
     "registered_voters": "Not explicitly reported for this primary on the county or SOS election results page.",
     "turnout_pct": "Not explicitly reported.",
     "notes": "The Henry County Board of Elections has a certification meeting scheduled for May 26, 2026, at 1:00 PM. Results are currently marked as 'Unofficial'. Pre-certification meeting was held/scheduled for May 22, 2026.",
-    "source_url": "[County Elections Page](https://www.henrycountyga.gov/305/Elections-Voter-Registration), [Agenda/Minutes](https://www.henrycountyga.gov/552/AgendaMinutes), [Election Results](https://results.sos.ga.gov/results/public/henry-county-ga/elections/GeneralPrimary51926)"
+    "source_url": "[County Elections Page](https://www.henrycountyga.gov/305/Elections-Voter-Registration), [Agenda/Minutes](https://www.henrycountyga.gov/552/AgendaMinutes), [Election Results](https://results.sos.ga.gov/results/public/henry-county-ga/elections/GeneralPrimary51926)",
+    "broadcast_available": "Unknown",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "No",
+    "broadcast_notes": "The Board of Elections 2026 meeting schedule confirms a Certification Meeting on May 26, 2026, at 1:00 PM at 1550 S. Zack Hinton Parkway, McDonough. No livestream link was found on the agenda.",
+    "broadcast_source": "[Henry County Board of Elections](https://www.henrycountyga.gov/567/Board-of-Elections-Voter-Registration), [Henry County 2026 Meeting Schedule](https://content.civicplus.com/api/assets/ga-henrycounty/f1568a78-249c-403d-8300-49043bd67feb?cache=1800)"
   },
   {
     "fips": "13153",
@@ -1061,7 +1586,14 @@
     "registered_voters": "",
     "turnout_pct": "",
     "notes": "The Houston County Board of Elections is scheduled to meet on Friday, May 22, 2026, at 3:00 p.m. to review provisional ballots and certify the May 19, 2026 General Primary results. As of Friday morning, the results have not yet been certified. Reported ballots cast figure (15,267) reflects total early in-person voting as of the most recent report.",
-    "source_url": "[Board of Elections - Houston County](https://www.houstoncountyga.gov/residents/board-of-elections.cms), [Election Certify-Provisional Review Notice](https://www.houstoncountyga.gov/skins/userfiles/files/Election%20Certify-Provisional%20Review%20-General%20Primary-Nonpartisan-Special%20May%2019%2C%202026.pdf), [Early Voting Totals](https://www.houstoncountyga.gov/residents/earlyvotingtotals.cms)"
+    "source_url": "[Board of Elections - Houston County](https://www.houstoncountyga.gov/residents/board-of-elections.cms), [Election Certify-Provisional Review Notice](https://www.houstoncountyga.gov/skins/userfiles/files/Election%20Certify-Provisional%20Review%20-General%20Primary-Nonpartisan-Special%20May%2019%2C%202026.pdf), [Early Voting Totals](https://www.houstoncountyga.gov/residents/earlyvotingtotals.cms)",
+    "broadcast_available": "No",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "Yes",
+    "broadcast_notes": "The official public notice for the certification meeting specifies it will be held in person at the Board of Elections office, with no mention of a livestream or remote access option.",
+    "broadcast_source": "[Certification Meeting Notice](https://www.houstoncountyga.gov/skins/userfiles/files/Election%20Certify-Provisional%20Review%20-General%20Primary-Nonpartisan-Special%20May%2019%2C%202026.pdf)"
   },
   {
     "fips": "13155",
@@ -1075,7 +1607,14 @@
     "registered_voters": "6,115",
     "turnout_pct": "31.91%",
     "notes": "Certification meeting scheduled for Friday, May 22, 2026, at 5:15 PM. Results posted as of May 19 are marked unofficial and incomplete.",
-    "source_url": "[County Elections Page](https://irwincounty-ga.gov/departments/568/elections/), [May 19 Election Summary Report](https://irwincounty-ga.gov/wp-content/uploads/2026/05/ElectionSummaryReportRPT-8.pdf)"
+    "source_url": "[County Elections Page](https://irwincounty-ga.gov/departments/568/elections/), [May 19 Election Summary Report](https://irwincounty-ga.gov/wp-content/uploads/2026/05/ElectionSummaryReportRPT-8.pdf)",
+    "broadcast_available": "No",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "Yes",
+    "broadcast_notes": "The official notice and a Facebook update from the Elections Supervisor both state the meeting will take place in-person at the office (225 E 4th St, Ocilla, GA) with no mention of a livestream.",
+    "broadcast_source": "[Combined Notice](https://irwincounty-ga.gov/wp-content/uploads/2026/04/Combined-Logic-and-Accuracy-Test-and-Notice-of-Computation-Canvassing-and-Certification-2026.pdf?pid=39098), [Irwin Concerned Citizens Facebook](https://www.facebook.com/groups/732773775194808/posts/1284863153319198/)"
   },
   {
     "fips": "13157",
@@ -1089,7 +1628,14 @@
     "registered_voters": "65,508",
     "turnout_pct": "23.31%",
     "notes": "Election results are currently listed as 'Unofficial & Complete' as of May 21, 2026. Turnout was 23.31%.",
-    "source_url": "[County Elections](https://www.jacksoncountygov.com/197/Election-Results?categoryID=2026)"
+    "source_url": "[County Elections](https://www.jacksoncountygov.com/197/Election-Results?categoryID=2026)",
+    "broadcast_available": "",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "",
+    "broadcast_notes": "",
+    "broadcast_source": ""
   },
   {
     "fips": "13159",
@@ -1103,7 +1649,14 @@
     "registered_voters": "Not reported",
     "turnout_pct": "Not reported",
     "notes": "Site shows 'Unofficial & Incomplete May 19, 2026 Election Results' as of May 21. No certification meeting notice found for May 20-21. Board meeting dates for May 2026 were 'To Be Determined'.",
-    "source_url": "[Jasper County Elections](https://jaspercountyga.org/elections/)"
+    "source_url": "[Jasper County Elections](https://jaspercountyga.org/elections/)",
+    "broadcast_available": "",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "",
+    "broadcast_notes": "",
+    "broadcast_source": ""
   },
   {
     "fips": "13161",
@@ -1117,7 +1670,14 @@
     "registered_voters": "",
     "turnout_pct": "",
     "notes": "The official county website and external search results do not currently state whether the May 19, 2026 primary results have been certified. The statutory deadline for certification in Georgia is May 25, 2026. No specific meeting minutes or certification notices for the 2026 primary were found on the county's elections page or general government site.",
-    "source_url": "[County Elections Page](https://jeffdaviscountyga.gov/elections)"
+    "source_url": "[County Elections Page](https://jeffdaviscountyga.gov/elections)",
+    "broadcast_available": "",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "",
+    "broadcast_notes": "",
+    "broadcast_source": ""
   },
   {
     "fips": "13163",
@@ -1131,7 +1691,14 @@
     "registered_voters": "",
     "turnout_pct": "",
     "notes": "As of May 21, 2026, the county website does not show certified results or a certification notice for the May 19 primary. Latest posted results are from Nov 2025.",
-    "source_url": "[County Elections](https://www.jeffersoncountyga.gov/193/Elections), [Certified Results Page](https://www.jeffersoncountyga.gov/388/Certified-Election-Results)"
+    "source_url": "[County Elections](https://www.jeffersoncountyga.gov/193/Elections), [Certified Results Page](https://www.jeffersoncountyga.gov/388/Certified-Election-Results)",
+    "broadcast_available": "",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "",
+    "broadcast_notes": "",
+    "broadcast_source": ""
   },
   {
     "fips": "13165",
@@ -1145,7 +1712,14 @@
     "registered_voters": "5,112",
     "turnout_pct": "23.44%",
     "notes": "The election results are posted as \"Official and Complete,\" but no explicit certification vote was found as of May 21. A statewide audit is scheduled for May 29, 2026.",
-    "source_url": "[County Elections Page](https://www.jenkinscounty.net/electionresults), [Official and Complete Results PDF](https://www.jenkinscounty.net/s/ELECTION-SUMMARY-REPORT-OFFICIAL+AND+COMPLETE.pdf)"
+    "source_url": "[County Elections Page](https://www.jenkinscounty.net/electionresults), [Official and Complete Results PDF](https://www.jenkinscounty.net/s/ELECTION-SUMMARY-REPORT-OFFICIAL+AND+COMPLETE.pdf)",
+    "broadcast_available": "Unknown",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "Unknown",
+    "broadcast_notes": "Jenkins County Board of Elections meetings are held in-person at the James L. Henry Administrative Building. No livestream links or social media broadcast channels were found.",
+    "broadcast_source": "[Jenkins County Board Meetings](https://www.jenkinscounty.net/board-meetings)"
   },
   {
     "fips": "13167",
@@ -1159,7 +1733,14 @@
     "registered_voters": "5700",
     "turnout_pct": "5.5% (early/advance only)",
     "notes": "As of May 21, no certification notice or certified results found on the county website. Unofficial early turnout was 323 ballots cast (5.5%).",
-    "source_url": "[Board of Elections | Johnson County GA](https://www.johnsonco.org/bc-be), [Johnson County - Georgia Votes](https://www.georgiavotes.com/county.php?c=83&a=1)"
+    "source_url": "[Board of Elections | Johnson County GA](https://www.johnsonco.org/bc-be), [Johnson County - Georgia Votes](https://www.georgiavotes.com/county.php?c=83&a=1)",
+    "broadcast_available": "",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "",
+    "broadcast_notes": "",
+    "broadcast_source": ""
   },
   {
     "fips": "13169",
@@ -1173,7 +1754,14 @@
     "registered_voters": "19,450 (estimated based on previous election data and Georgia voter trends)",
     "turnout_pct": "39.36% (estimated)",
     "notes": "Results remain unofficial as of May 21. SOS reporting 10/10 precincts fully reported for all ballot items. Local news reports wins are unofficial until certified.",
-    "source_url": "[Jones County Elections](https://www.jonescountyga.org/county-directory/elections/), [The Jones County News](https://www.jcnews.com/news/jones-county-may-19-election-results), [Georgia SOS Results](https://results.sos.ga.gov/results/public/jones-county-ga/elections/GeneralPrimary51926)"
+    "source_url": "[Jones County Elections](https://www.jonescountyga.org/county-directory/elections/), [The Jones County News](https://www.jcnews.com/news/jones-county-may-19-election-results), [Georgia SOS Results](https://results.sos.ga.gov/results/public/jones-county-ga/elections/GeneralPrimary51926)",
+    "broadcast_available": "",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "",
+    "broadcast_notes": "",
+    "broadcast_source": ""
   },
   {
     "fips": "13171",
@@ -1187,7 +1775,14 @@
     "registered_voters": "13,500 (estimated based on 18,500 population)",
     "turnout_pct": "33.3% (estimated)",
     "notes": "Final unofficial results posted May 19, 2026. Certification typically occurs several days later; no board meeting for certification listed as of May 21.",
-    "source_url": "[Final Unofficial Results](https://barnesville.com/election-results-15/), [Lamar County Board of Elections](http://www.lamarcountyga.com/departments/board-of-elections/)"
+    "source_url": "[Final Unofficial Results](https://barnesville.com/election-results-15/), [Lamar County Board of Elections](http://www.lamarcountyga.com/departments/board-of-elections/)",
+    "broadcast_available": "",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "",
+    "broadcast_notes": "",
+    "broadcast_source": ""
   },
   {
     "fips": "13173",
@@ -1201,7 +1796,14 @@
     "registered_voters": "5,922",
     "turnout_pct": "17.88%",
     "notes": "Results for the May 19, 2026 primary are posted on the county website but are explicitly marked as \"Unofficial\" as of May 21, 2026. No certification notice found.",
-    "source_url": "[County Elections](https://laniercountyboc.com/wp/elections-and-registration-notices/)"
+    "source_url": "[County Elections](https://laniercountyboc.com/wp/elections-and-registration-notices/)",
+    "broadcast_available": "",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "",
+    "broadcast_notes": "",
+    "broadcast_source": ""
   },
   {
     "fips": "13175",
@@ -1215,7 +1817,14 @@
     "registered_voters": "33,379",
     "turnout_pct": "26.91%",
     "notes": "As of May 21, results were reported as unofficial. Turnout: 26.91%. Matt Hatchett won GOP primary with 90%. Meeting for certification likely scheduled for before May 25 deadline.",
-    "source_url": "[Courier Herald Today](https://courierheraldtoday.com/hatchett-wins-primary-in-landslide/), [Laurens County Board of Elections](https://www.laurenscoga.org/259/Board-of-Elections-Registration)"
+    "source_url": "[Courier Herald Today](https://courierheraldtoday.com/hatchett-wins-primary-in-landslide/), [Laurens County Board of Elections](https://www.laurenscoga.org/259/Board-of-Elections-Registration)",
+    "broadcast_available": "Unknown",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "Unknown",
+    "broadcast_notes": "The public notice for the May 19, 2026 General Primary certification meeting (scheduled for May 26, 2026, at 10:00 a.m.) states that the meeting will be held in person at the Laurens County Board of Elections & Registration Office (117 East Jackson St, Suite A, Dublin, GA 31021). While some local political forums are broadcast by TV35 WDIG and posted to YouTube, there is no official confirmation of a livestream for the Board of Elections certification meeting.",
+    "broadcast_source": "[Laurens County Board of Elections Public Notice](https://www.laurenscoga.org/DocumentCenter/View/6700/COMPUTATION-CANVASSING-AND-TABULATION-NOTICE?bidId=)"
   },
   {
     "fips": "13177",
@@ -1229,7 +1838,14 @@
     "registered_voters": "25,238",
     "turnout_pct": "7.1% (Early/Absentee only)",
     "notes": "Results remain unofficial as of May 21, 2026. The Board of Elections typically meets to certify within a week following the election. No certification notice found on site.",
-    "source_url": "[Lee County Elections](https://www.leecountyga.gov/government/boards/elections-registrations), [Georgia Votes - Lee County](https://www.georgiavotes.com/county.php?c=88&a=1)"
+    "source_url": "[Lee County Elections](https://www.leecountyga.gov/government/boards/elections-registrations), [Georgia Votes - Lee County](https://www.georgiavotes.com/county.php?c=88&a=1)",
+    "broadcast_available": "",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "",
+    "broadcast_notes": "",
+    "broadcast_source": ""
   },
   {
     "fips": "13179",
@@ -1243,7 +1859,14 @@
     "registered_voters": "38,301",
     "turnout_pct": "23.2%",
     "notes": "Results remain unofficial as of May 21; Board of Elections scheduled canvassing for May 20. Turnout reported at 23.2% with 8,877 ballots cast.",
-    "source_url": "[County Elections Page](https://libertycountyga.gov/323/Elections-Registration), [Coastal Courier](https://coastalcourier.com/news/williams-handily-wins-democratic-primary/)"
+    "source_url": "[County Elections Page](https://libertycountyga.gov/323/Elections-Registration), [Coastal Courier](https://coastalcourier.com/news/williams-handily-wins-democratic-primary/)",
+    "broadcast_available": "",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "",
+    "broadcast_notes": "",
+    "broadcast_source": ""
   },
   {
     "fips": "13181",
@@ -1257,7 +1880,14 @@
     "registered_voters": "",
     "turnout_pct": "",
     "notes": "No certification notice found as of May 21, 2026. The county website redirects to the Secretary of State's page for results, which remain unofficial until the May 25 deadline.",
-    "source_url": "[Lincoln County Elections](https://www.lincolncountyga.com/elections)"
+    "source_url": "[Lincoln County Elections](https://www.lincolncountyga.com/elections)",
+    "broadcast_available": "",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "",
+    "broadcast_notes": "",
+    "broadcast_source": ""
   },
   {
     "fips": "13183",
@@ -1271,7 +1901,14 @@
     "registered_voters": "",
     "turnout_pct": "",
     "notes": "Computation and canvassing of returns is scheduled for Friday, May 22, 2026, at 5:30 p.m. at the Long County Elections Office.",
-    "source_url": "[Long County Elections Page](https://www.longcountyga.gov/elections-important), [Georgia Secretary of State Results](https://results.sos.ga.gov/results/public/long-county-ga/elections/GeneralPrimary51926)"
+    "source_url": "[Long County Elections Page](https://www.longcountyga.gov/elections-important), [Georgia Secretary of State Results](https://results.sos.ga.gov/results/public/long-county-ga/elections/GeneralPrimary51926)",
+    "broadcast_available": "No",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "Yes",
+    "broadcast_notes": "The official notice for the computation and canvassing of returns for the May 19, 2026 General Primary specifies that the meeting will take place at the Long County Elections Office at 5:30 p.m. on May 22, 2026, with no mention of a livestream or virtual attendance option. Past reports indicate meetings are held in person.",
+    "broadcast_source": "[Computation & Canvassing Notice](https://www.longcountyga.gov/s/20260519_Computation_and_Canvassing_Notice.pdf), [Long County Elections Important Information](https://www.longcountyga.gov/elections-important)"
   },
   {
     "fips": "13185",
@@ -1285,7 +1922,14 @@
     "registered_voters": "81,482 (reported registered residents)",
     "turnout_pct": "",
     "notes": "Certification meeting for the May 19, 2026 Primary is scheduled for Tuesday, May 26, 2026, at 3:00 P.M. at the Elections office. Current results are unofficial.",
-    "source_url": "[Ad Early SCANNING TABULATION AND CONSOLIDATION MAY 2026.pdf](https://bluesky.lowndescounty.com/index.php/s/Pf24MB826AF5Q76?dir=/Documents%20For%202026/Documents%20for%20May%202026%20Primary%20Election&openfile=true), [Lowndes County - Georgia Votes](https://www.georgiavotes.com/county.php?c=92&a=1)"
+    "source_url": "[Ad Early SCANNING TABULATION AND CONSOLIDATION MAY 2026.pdf](https://bluesky.lowndescounty.com/index.php/s/Pf24MB826AF5Q76?dir=/Documents%20For%202026/Documents%20for%20May%202026%20Primary%20Election&openfile=true), [Lowndes County - Georgia Votes](https://www.georgiavotes.com/county.php?c=92&a=1)",
+    "broadcast_available": "Unknown",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "Unknown",
+    "broadcast_notes": "No information regarding a livestream or broadcast was found on the official county website, calendar, or YouTube channel for the certification meeting. Past meetings were held in person.",
+    "broadcast_source": "[Lowndes County Board of Elections](https://www.lowndescounty.com/194/Board-of-Elections), [Elections & Voting](https://www.lowndescounty.com/221/Elections-Voting)"
   },
   {
     "fips": "13187",
@@ -1299,7 +1943,14 @@
     "registered_voters": "Unknown",
     "turnout_pct": "Unknown",
     "notes": "As of May 21, 2026, the website provides a Voter Participation Report but does not list certified results or a certification notice. Canvassing began May 19.",
-    "source_url": "[Lumpkin County Elections](https://www.lumpkincounty.gov/183/Elections-Registration)"
+    "source_url": "[Lumpkin County Elections](https://www.lumpkincounty.gov/183/Elections-Registration)",
+    "broadcast_available": "",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "",
+    "broadcast_notes": "",
+    "broadcast_source": ""
   },
   {
     "fips": "13193",
@@ -1313,7 +1964,14 @@
     "registered_voters": "",
     "turnout_pct": "",
     "notes": "As of May 21, 2026, no official certification for the May 19 primary was found. Results remain unofficial pending the statutory deadline of May 25, 2026.",
-    "source_url": "[Macon County Elections](https://www.maconcountyga.gov/board-of-elections-and-registration.cfm)"
+    "source_url": "[Macon County Elections](https://www.maconcountyga.gov/board-of-elections-and-registration.cfm)",
+    "broadcast_available": "",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "",
+    "broadcast_notes": "",
+    "broadcast_source": ""
   },
   {
     "fips": "13195",
@@ -1327,7 +1985,14 @@
     "registered_voters": "~22,700 (estimated based on early voting turnout)",
     "turnout_pct": "Not reported",
     "notes": "Results for Madison County races (County Commission and Board of Education) have been reported by local media, but official certification by the Board of Elections is still pending. The statutory deadline is May 25, 2026. Unofficial results show Theresa Bettis and Stephanie Harvin winning commission seats, and Angie McGinnis and Robert Hooper winning school board seats.",
-    "source_url": "[Madison County Elections](http://www.mcelections.net), [WUGA News](https://www.wuga.org/local-news/2026-05-20/full-rundown-of-state-primary-and-local-nonpartisan-election-results-several-headed-to-runoffs)"
+    "source_url": "[Madison County Elections](http://www.mcelections.net), [WUGA News](https://www.wuga.org/local-news/2026-05-20/full-rundown-of-state-primary-and-local-nonpartisan-election-results-several-headed-to-runoffs)",
+    "broadcast_available": "",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "",
+    "broadcast_notes": "",
+    "broadcast_source": ""
   },
   {
     "fips": "13197",
@@ -1341,7 +2006,14 @@
     "registered_voters": "",
     "turnout_pct": "",
     "notes": "No certification notice or official results for the May 19 primary were found on the county website or in local news as of May 21, 2026. Early voting data reported 435 ballots on day one.",
-    "source_url": "[Marion County Elections](https://www.marioncountyga.org/by-department/elections-and-registration/)"
+    "source_url": "[Marion County Elections](https://www.marioncountyga.org/by-department/elections-and-registration/)",
+    "broadcast_available": "",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "",
+    "broadcast_notes": "",
+    "broadcast_source": ""
   },
   {
     "fips": "13189",
@@ -1355,7 +2027,14 @@
     "registered_voters": "",
     "turnout_pct": "",
     "notes": "Election results are still marked as 'Unofficial' on the Georgia Secretary of State website as of May 21, 2026. No certification meeting agenda has been posted on the county portal.",
-    "source_url": "[County Elections](https://www.thomson-mcduffie.gov/259/Elections-Registration), [SOS Results](https://results.sos.ga.gov/results/public/mcduffie-county-ga/elections/GeneralPrimary51926)"
+    "source_url": "[County Elections](https://www.thomson-mcduffie.gov/259/Elections-Registration), [SOS Results](https://results.sos.ga.gov/results/public/mcduffie-county-ga/elections/GeneralPrimary51926)",
+    "broadcast_available": "",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "",
+    "broadcast_notes": "",
+    "broadcast_source": ""
   },
   {
     "fips": "13191",
@@ -1369,7 +2048,14 @@
     "registered_voters": "",
     "turnout_pct": "",
     "notes": "Board meeting to certify results is scheduled for May 22, 2026. Current results are unofficial. Ballots cast estimate based on Governor's race totals.",
-    "source_url": "[Board of Elections](https://www.mcintoshcountyga.com/250/BOE-Meetings-Minutes), [Election Results](https://results.sos.ga.gov/results/public/mcintosh-county-ga/elections/GeneralPrimary51926/reports)"
+    "source_url": "[Board of Elections](https://www.mcintoshcountyga.com/250/BOE-Meetings-Minutes), [Election Results](https://results.sos.ga.gov/results/public/mcintosh-county-ga/elections/GeneralPrimary51926/reports)",
+    "broadcast_available": "No",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "Yes",
+    "broadcast_notes": "The Board of Elections website lists meetings to be held in person at 103 Jefferson Street, with no mention of a livestream or remote option for the May 22 certification meeting. Past minutes also do not refer to virtual participation.",
+    "broadcast_source": "[Board of Elections | McIntosh County, GA](https://www.mcintoshcountyga.com/247/Board-of-Elections), [BOE Meetings & Minutes | McIntosh County, GA](https://www.mcintoshcountyga.com/250/BOE-Meetings-Minutes)"
   },
   {
     "fips": "13199",
@@ -1383,7 +2069,14 @@
     "registered_voters": "",
     "turnout_pct": "",
     "notes": "Certification meeting scheduled for May 26, 2026, at 10:00 AM. A pre-certification meeting was held on May 21, 2026.",
-    "source_url": "[Meriwether County Elections](https://www.meriwethercountyga.gov/385/Elections)"
+    "source_url": "[Meriwether County Elections](https://www.meriwethercountyga.gov/385/Elections)",
+    "broadcast_available": "No",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "Yes",
+    "broadcast_notes": "The certification meeting is scheduled for Tuesday, May 26, 2026, at 10:00 AM at the Board of Elections office. No livestream or remote access information is provided on the official notice.",
+    "broadcast_source": "[Elections Page](https://www.meriwethercountyga.gov/385/Elections)"
   },
   {
     "fips": "13201",
@@ -1397,7 +2090,14 @@
     "registered_voters": "Unknown",
     "turnout_pct": "Unknown",
     "notes": "As of May 21, 2026, no official certification announcement or final certified results for the May 19 primary have been posted on the Miller County website. Unofficial results pending.",
-    "source_url": "[County Elections Page](https://millercountyga.gov/boc.html), [Agendas and Minutes](https://millercountyga.gov/minutes.html)"
+    "source_url": "[County Elections Page](https://millercountyga.gov/boc.html), [Agendas and Minutes](https://millercountyga.gov/minutes.html)",
+    "broadcast_available": "",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "",
+    "broadcast_notes": "",
+    "broadcast_source": ""
   },
   {
     "fips": "13205",
@@ -1411,7 +2111,14 @@
     "registered_voters": "",
     "turnout_pct": "",
     "notes": "As of May 21, 2026, the Mitchell County elections website has not posted a notice of certification or official results for the May 19, 2026 primary. Statutory deadline is May 25.",
-    "source_url": "[County Elections Page](https://www.mitchellcountyga.net/board-of-elections-registration/)"
+    "source_url": "[County Elections Page](https://www.mitchellcountyga.net/board-of-elections-registration/)",
+    "broadcast_available": "",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "",
+    "broadcast_notes": "",
+    "broadcast_source": ""
   },
   {
     "fips": "13207",
@@ -1425,7 +2132,14 @@
     "registered_voters": "23,250",
     "turnout_pct": "36.5%",
     "notes": "Results labeled \"Final Unofficial\". Certification meeting scheduled for Friday, May 22, 2026 at 4:00 p.m. per the Board of Elections meeting schedule.",
-    "source_url": "[County Elections Page](https://www.monroecogaelections.com/board-minutes), [Election Results Page](https://www.monroecoga.org/2026/05/20/final-results-from-the-may-19-2026-primary-election-in-monroe-county/)"
+    "source_url": "[County Elections Page](https://www.monroecogaelections.com/board-minutes), [Election Results Page](https://www.monroecoga.org/2026/05/20/final-results-from-the-may-19-2026-primary-election-in-monroe-county/)",
+    "broadcast_available": "Unknown",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "Unknown",
+    "broadcast_notes": "The Monroe County Board of Elections website indicates a meeting is scheduled for Friday, May 22, 2026, but does not provide livestream links. Past Board of Commissioners meetings are sometimes streamed on their Facebook page, but no specific election board stream was found.",
+    "broadcast_source": "[Monroe County Board of Elections Meeting Page](https://www.monroecogaelections.com/board-minutes)"
   },
   {
     "fips": "13209",
@@ -1439,7 +2153,14 @@
     "registered_voters": "~5,855 (calculated from 7.6% turnout snippet)",
     "turnout_pct": "7.6% (early/absentee only)",
     "notes": "Board of Elections met May 21, 2026; site does not yet confirm certification. Early/absentee turnout was 445 (7.6%).",
-    "source_url": "[County Elections](https://www.montcoga.gov/board-elections-registration), [Georgia Votes](https://www.georgiavotes.com/county.php?c=103)"
+    "source_url": "[County Elections](https://www.montcoga.gov/board-elections-registration), [Georgia Votes](https://www.georgiavotes.com/county.php?c=103)",
+    "broadcast_available": "",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "",
+    "broadcast_notes": "",
+    "broadcast_source": ""
   },
   {
     "fips": "13211",
@@ -1453,7 +2174,14 @@
     "registered_voters": "",
     "turnout_pct": "",
     "notes": "Certification meeting rescheduled for May 22, 2026, at 11:15 AM (Regular and Certification meeting). Pre-certification at 11:00 AM. Results currently \"Unofficial & Incomplete\".",
-    "source_url": "[County Elections Page](https://www.morgancountyga.gov/111/Elections-Registration), [Meeting Change Notice](https://www.morgancountyga.gov/DocumentCenter/View/5085), [SOS Results Page](https://results.sos.ga.gov/results/public/morgan-county-ga/elections/GeneralPrimary51926)"
+    "source_url": "[County Elections Page](https://www.morgancountyga.gov/111/Elections-Registration), [Meeting Change Notice](https://www.morgancountyga.gov/DocumentCenter/View/5085), [SOS Results Page](https://results.sos.ga.gov/results/public/morgan-county-ga/elections/GeneralPrimary51926)",
+    "broadcast_available": "No",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "Yes",
+    "broadcast_notes": "Meeting notice and official BOER page do not mention livestreaming or remote access. Only Board of Commissioners meetings are listed on the county's livestream portal.",
+    "broadcast_source": "[Meeting Change Notice](https://www.morgancountyga.gov/DocumentCenter/View/5085), [Morgan County BOER Office & Meetings](https://www.morgancountyga.gov/387/Morgan-County-BOER-Office)"
   },
   {
     "fips": "13213",
@@ -1467,7 +2195,14 @@
     "registered_voters": "",
     "turnout_pct": "",
     "notes": "The Board of Elections is scheduled to certify the May 19, 2026, General Primary results at a meeting on May 22, 2026.",
-    "source_url": "[County Elections Page](https://www.murraycountyga.org/653/Board-of-Elections)"
+    "source_url": "[County Elections Page](https://www.murraycountyga.org/653/Board-of-Elections)",
+    "broadcast_available": "Unknown",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "No",
+    "broadcast_notes": "Murray County Board of Elections lists the May 22nd certification meeting on its 2026 schedule with a 'Time TBD' and location at the 121 N 4th Ave office. No livestream links were found on the official website or Facebook. The county has been experiencing a cyberattack as of May 14, 2026, which has affected some office operations, though early voting continued. Board of Education meetings are streamed on the 'Murray on the Mic' YouTube channel, but no similar government channel for Board of Elections meetings was identified.",
+    "broadcast_source": "[Murray County Board of Elections](https://www.murraycountyga.org/653/Board-of-Elections), [Murray County Elections](https://www.murraycountyga.org/77/Elections)"
   },
   {
     "fips": "13215",
@@ -1481,7 +2216,14 @@
     "registered_voters": "127,710",
     "turnout_pct": "28.9%",
     "notes": "Results pending certification. 36,941 ballots cast out of 127,710 active registered voters reported. No certification meeting found prior to May 21. Statutory deadline is May 25.",
-    "source_url": "[County Elections Page](https://columbusga.gov/elections), [Couriernews Report](https://www.couriernews.org/muscogee-county-primary-election-by-the-numbers/)"
+    "source_url": "[County Elections Page](https://columbusga.gov/elections), [Couriernews Report](https://www.couriernews.org/muscogee-county-primary-election-by-the-numbers/)",
+    "broadcast_available": "Unknown",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "No",
+    "broadcast_notes": "Board meetings are typically held the 1st Thursday of the month. Certification notices mention meetings are open to the public but do not specify a livestream. Past meetings are not evident on the county's primary YouTube (CCG-TV) or Facebook pages.",
+    "broadcast_source": "[Elections & Registration Office](https://columbusga.gov/elections)"
   },
   {
     "fips": "13217",
@@ -1495,7 +2237,14 @@
     "registered_voters": "87,337",
     "turnout_pct": "27.53%",
     "notes": "Board meeting to certify results was scheduled for May 21, 2026, at 4:00 PM; results remain posted as unofficial.",
-    "source_url": "[County Elections](https://www.newtoncountyga.gov/174/Election-Results), [Board Meetings](https://www.newtoncountyga.gov/170/Board-Members-and-Meetings)"
+    "source_url": "[County Elections](https://www.newtoncountyga.gov/174/Election-Results), [Board Meetings](https://www.newtoncountyga.gov/170/Board-Members-and-Meetings)",
+    "broadcast_available": "No",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "Yes",
+    "broadcast_notes": "The Board of Elections website lists the certification meeting for May 21, 2026, with no livestream option. A public notice for election tabulation explicitly prohibits electronics.",
+    "broadcast_source": "[Board Members and Meetings](https://www.newtoncountyga.gov/170/Board-Members-and-Meetings)"
   },
   {
     "fips": "13219",
@@ -1509,7 +2258,14 @@
     "registered_voters": "32,161",
     "turnout_pct": "38.68%",
     "notes": "Certification meeting scheduled for May 22, 2026 at 2:00 p.m. Results current as of May 21 remain unofficial and incomplete. Risk Limiting Audit scheduled for May 29.",
-    "source_url": "[Oconee County Elections](https://www.oconeecountyga.gov/1463/Elections-Registration)"
+    "source_url": "[Oconee County Elections](https://www.oconeecountyga.gov/1463/Elections-Registration)",
+    "broadcast_available": "No",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "Yes",
+    "broadcast_notes": "The meeting is held in person. While the Board of Commissioners and Town Halls are often livestreamed via Zoom/YouTube, there is no evidence that Board of Elections meetings are broadcast live.",
+    "broadcast_source": "[Oconee County CivicClerk](https://oconeecountyga.portal.civicclerk.com/event/1886/files/agenda/4166)"
   },
   {
     "fips": "13221",
@@ -1523,7 +2279,14 @@
     "registered_voters": "",
     "turnout_pct": "",
     "notes": "Board certification meeting for the May 19, 2026 primary is scheduled for May 22, 2026, at 3 p.m. per the county website.",
-    "source_url": "[County Elections Page](https://www.oglethorpecountyga.gov/elections)"
+    "source_url": "[County Elections Page](https://www.oglethorpecountyga.gov/elections)",
+    "broadcast_available": "Unknown",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "Unknown",
+    "broadcast_notes": "The official elections page lists the certification meeting for May 22, 2026, at 3 p.m. at the Board of Elections office, but does not mention any livestream or remote access options.",
+    "broadcast_source": "[Oglethorpe County Elections & Registration](https://www.oglethorpecountyga.gov/elections)"
   },
   {
     "fips": "13223",
@@ -1537,7 +2300,14 @@
     "registered_voters": "",
     "turnout_pct": "",
     "notes": "Certification meeting scheduled for May 26, 2026, at 10:00 a.m. Results currently listed as unofficial.",
-    "source_url": "[Paulding County Elections](https://www.paulding.gov/216/Elections-Voter-Registration), [Board of Elections Meeting Schedule](https://www.paulding.gov/DocumentCenter/View/16239/2026-Board-of-Elections-Meeting-Schedule-), [GA SOS Results](https://results.sos.ga.gov/results/public/paulding-county-ga/elections/GeneralPrimary51926)"
+    "source_url": "[Paulding County Elections](https://www.paulding.gov/216/Elections-Voter-Registration), [Board of Elections Meeting Schedule](https://www.paulding.gov/DocumentCenter/View/16239/2026-Board-of-Elections-Meeting-Schedule-), [GA SOS Results](https://results.sos.ga.gov/results/public/paulding-county-ga/elections/GeneralPrimary51926)",
+    "broadcast_available": "No",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "Yes",
+    "broadcast_notes": "The Board of Elections meeting schedule for 2026 indicates the certification meeting will be held in person in the Cafeteria. No livestream or remote access options are mentioned.",
+    "broadcast_source": "[Board of Elections Meeting Schedule](https://www.paulding.gov/DocumentCenter/View/16239/2026-Board-of-Elections-Meeting-Schedule-)"
   },
   {
     "fips": "13225",
@@ -1551,7 +2321,14 @@
     "registered_voters": "21,486",
     "turnout_pct": "23.96%",
     "notes": "Certification meeting scheduled for Friday, May 22, 2026, at 4:00 PM at the Peach County Courthouse. Results currently unofficial.",
-    "source_url": "[County Elections](https://peachcounty.gov/board-of-elections/board-of-elections-updates/)"
+    "source_url": "[County Elections](https://peachcounty.gov/board-of-elections/board-of-elections-updates/)",
+    "broadcast_available": "No",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "Yes",
+    "broadcast_notes": "Meeting notice specifies in-person at Peach County Courthouse. No livestream options or links were found for Board of Elections meetings, though the Board of Commissioners uses a portal.",
+    "broadcast_source": "[Board of Elections Updates](https://peachcounty.gov/board-of-elections/board-of-elections-updates/)"
   },
   {
     "fips": "13227",
@@ -1565,7 +2342,14 @@
     "registered_voters": "27,329",
     "turnout_pct": "27.59%",
     "notes": "Results are currently \"Unofficial and Incomplete\". A special board meeting is scheduled for May 22, 2026 at 2 pm.",
-    "source_url": "[Pickens County Elections](https://pickensgaelections.com/2026-primary-election)"
+    "source_url": "[Pickens County Elections](https://pickensgaelections.com/2026-primary-election)",
+    "broadcast_available": "Unknown",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "No",
+    "broadcast_notes": "The certification meeting is scheduled for Tuesday, May 26, 2026, at 4:00 PM at the Board of Elections Office. Past board meetings have been posted to the KnowPickens YouTube channel, typically within a few days of the meeting, but no live broadcast link or platform (e.g., Zoom, YouTube Live) has been provided in the official notice or on social media.",
+    "broadcast_source": "[Pickens County Board of Elections Notices](https://pickensgaelections.com/notices)"
   },
   {
     "fips": "13229",
@@ -1579,7 +2363,14 @@
     "registered_voters": "",
     "turnout_pct": "",
     "notes": "As of May 21, results remain unofficial with 100% of precincts reporting. No board certification vote has been announced; statutory deadline is May 25, 2026.",
-    "source_url": "[Pierce County Elections](https://piercecountyga.gov/elections-voting-an-overview/), [Pierce County Board of Elections Facebook](https://www.facebook.com/PierceVoters/)"
+    "source_url": "[Pierce County Elections](https://piercecountyga.gov/elections-voting-an-overview/), [Pierce County Board of Elections Facebook](https://www.facebook.com/PierceVoters/)",
+    "broadcast_available": "",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "",
+    "broadcast_notes": "",
+    "broadcast_source": ""
   },
   {
     "fips": "13231",
@@ -1593,7 +2384,14 @@
     "registered_voters": "16,328",
     "turnout_pct": "32.5%",
     "notes": "Results are listed as unofficial on the SOS website as of May 21, 2026. News reports 100% precincts reporting with 32.5% turnout. No certification notice found.",
-    "source_url": "[County Elections](https://govote.pikecoga.gov), [Election Results](https://results.sos.ga.gov/results/public/pike-county-ga/elections/GeneralPrimary51926), [Pike County Georgia News](https://pikecountygeorgia.com/election-results/)"
+    "source_url": "[County Elections](https://govote.pikecoga.gov), [Election Results](https://results.sos.ga.gov/results/public/pike-county-ga/elections/GeneralPrimary51926), [Pike County Georgia News](https://pikecountygeorgia.com/election-results/)",
+    "broadcast_available": "",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "",
+    "broadcast_notes": "",
+    "broadcast_source": ""
   },
   {
     "fips": "13233",
@@ -1607,7 +2405,14 @@
     "registered_voters": "27,332",
     "turnout_pct": "25.38%",
     "notes": "Results marked Unofficial and Incomplete. Special meeting to certify scheduled for Friday, May 22, 2026, at 10:00 AM.",
-    "source_url": "[County Elections](https://www.polkga.org/departments/elections_office/index.php)"
+    "source_url": "[County Elections](https://www.polkga.org/departments/elections_office/index.php)",
+    "broadcast_available": "Unknown",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "No",
+    "broadcast_notes": "The official notice on the Polk County Board of Elections website specifies that the special called meeting on Friday, May 22, 2026, will be held in person at the County Commissioners Meeting Room. No livestream or remote participation information is provided on the website or meeting notice.",
+    "broadcast_source": "[Polk County Board of Elections](https://www.polkga.org/departments/elections_office/index.php)"
   },
   {
     "fips": "13235",
@@ -1621,7 +2426,14 @@
     "registered_voters": "",
     "turnout_pct": "",
     "notes": "The website shows 'Advanced Voting Daily Reconciliation' as of May 19, 2026, but no official certification notice. Board meets 2nd Mondays; June 8, 2026 is the next scheduled meeting.",
-    "source_url": "[Pulaski County Elections](https://hawkinsville-pulaski.org/departments/elections-registrations/), [Elections News](https://hawkinsville-pulaski.org/2026/05/19/advanced-voting-daily-reconciliation-may-18-2026/)"
+    "source_url": "[Pulaski County Elections](https://hawkinsville-pulaski.org/departments/elections-registrations/), [Elections News](https://hawkinsville-pulaski.org/2026/05/19/advanced-voting-daily-reconciliation-may-18-2026/)",
+    "broadcast_available": "No",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "Yes",
+    "broadcast_notes": "Board of Elections meetings are held in person at the Pulaski County Courthouse Annex Auditorium. No livestream or remote access information is provided on the official website or social media.",
+    "broadcast_source": "[Pulaski County Elections & Voting](https://hawkinsville-pulaski.org/departments/elections-registrations/), [Pulaski County Meetings & Events](https://hawkinsville-pulaski.org/meetings-events/)"
   },
   {
     "fips": "13237",
@@ -1635,7 +2447,14 @@
     "registered_voters": "18,097",
     "turnout_pct": "",
     "notes": "Certification meeting is scheduled for May 26, 2026, at 3:00 PM. A pre-certification meeting is set for May 22. Results remain unofficial as of May 21.",
-    "source_url": "[County Elections](https://ber.putnam-ga.gov)"
+    "source_url": "[County Elections](https://ber.putnam-ga.gov)",
+    "broadcast_available": "Unknown",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "No",
+    "broadcast_notes": "No livestream link found on the official Board of Elections website, agenda, or social media. Past Board of Elections meetings were noted as in-person. Board of Commissioners meetings are sometimes streamed on Facebook Live, but no confirmation for Board of Elections meetings.",
+    "broadcast_source": "[Putnam County Board of Elections](https://ber.putnam-ga.gov), [May 22 Agenda](https://ber.putnam-ga.gov/may-22-2026-pre-certification-meeting/)"
   },
   {
     "fips": "13239",
@@ -1649,7 +2468,14 @@
     "registered_voters": "1,701 (reported by Georgia Votes)",
     "turnout_pct": "5.6% (reported as early/absentee)",
     "notes": "Site shows primary election day as May 19, 2026. Board meets last Thursday of month (May 28). Certification results not yet posted as of May 21. Turnout 5.6% reported as early/absentee.",
-    "source_url": "[Quitman County Elections](https://www.gqc-ga.org/Default.asp?ID=121&pg=Elections), [Georgia Votes](https://www.georgiavotes.com/county.php?c=118)"
+    "source_url": "[Quitman County Elections](https://www.gqc-ga.org/Default.asp?ID=121&pg=Elections), [Georgia Votes](https://www.georgiavotes.com/county.php?c=118)",
+    "broadcast_available": "",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "",
+    "broadcast_notes": "",
+    "broadcast_source": ""
   },
   {
     "fips": "13241",
@@ -1663,7 +2489,14 @@
     "registered_voters": "",
     "turnout_pct": "",
     "notes": "Board meeting to certify results is scheduled for May 26, 2026, which is after the current date of May 21. No certified results found yet.",
-    "source_url": "[County Elections](https://www.rabuncounty.ga.gov/elections)"
+    "source_url": "[County Elections](https://www.rabuncounty.ga.gov/elections)",
+    "broadcast_available": "Unknown",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "No",
+    "broadcast_notes": "The Rabun County Board of Elections website lists a regular meeting for May 26, 2026, at 8:30 AM in the conference room. No livestream information is provided, and past listings indicate meetings are held in person. No official YouTube or Facebook page for the Board of Elections was found.",
+    "broadcast_source": "[Rabun County Elections](https://www.rabuncounty.ga.gov/elections)"
   },
   {
     "fips": "13243",
@@ -1677,7 +2510,14 @@
     "registered_voters": "",
     "turnout_pct": "",
     "notes": "The official Randolph County elections website does not currently list certification status or results for the May 19, 2026 primary. Statutory deadline is May 25, 2026.",
-    "source_url": "[Randolph County Board of Elections](https://www.randolphcountyga.com/board-of-elections-and-registration)"
+    "source_url": "[Randolph County Board of Elections](https://www.randolphcountyga.com/board-of-elections-and-registration)",
+    "broadcast_available": "",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "",
+    "broadcast_notes": "",
+    "broadcast_source": ""
   },
   {
     "fips": "13245",
@@ -1691,7 +2531,14 @@
     "registered_voters": "131,245",
     "turnout_pct": "29.56%",
     "notes": "Certification meeting scheduled for May 22, 2026, at 11:00 AM. Results are currently unofficial. Registered voters: 131,245.",
-    "source_url": "[Election Results](http://appweb2.augustaga.gov/election/results/electab_gp_2026), [Meeting Agendas](https://www.augustaga.gov/Archive.aspx?AMID=200)"
+    "source_url": "[Election Results](http://appweb2.augustaga.gov/election/results/electab_gp_2026), [Meeting Agendas](https://www.augustaga.gov/Archive.aspx?AMID=200)",
+    "broadcast_available": "Yes",
+    "broadcast_platform": "YouTube / County Portal",
+    "broadcast_url": "[County Portal](https://www.augustaga.gov/live)",
+    "broadcast_meeting_id": "",
+    "in_person_only": "No",
+    "broadcast_notes": "The certification meeting is scheduled for May 22, 2026, at 3:05 PM and is livestreamed via the Augusta-Richmond County government's live portal.",
+    "broadcast_source": "[Certification Meeting Agenda](https://www.augustaga.gov/Archive.aspx?ADID=22537)"
   },
   {
     "fips": "13247",
@@ -1705,7 +2552,14 @@
     "registered_voters": "64,759",
     "turnout_pct": "34.45%",
     "notes": "Election night results (9:44 PM) show 100% precincts reported but not yet officially certified. No certification meeting announcement found for May 2026.",
-    "source_url": "[County Elections Page](https://www.rockdalecountyga.gov/board-of-elections-voter-registration/), [Election Summary Report](https://www.rockdalecountyga.gov/wp-content/uploads/2026/05/ElectionSummaryReportRPT-3.pdf)"
+    "source_url": "[County Elections Page](https://www.rockdalecountyga.gov/board-of-elections-voter-registration/), [Election Summary Report](https://www.rockdalecountyga.gov/wp-content/uploads/2026/05/ElectionSummaryReportRPT-3.pdf)",
+    "broadcast_available": "",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "",
+    "broadcast_notes": "",
+    "broadcast_source": ""
   },
   {
     "fips": "13249",
@@ -1719,7 +2573,14 @@
     "registered_voters": "3,201",
     "turnout_pct": "Unknown",
     "notes": "No certification notice found as of May 21. Certification meetings in other Georgia counties are scheduled for May 22, 2026. Results remain unofficial.",
-    "source_url": "[County Elections Page](https://schleycountyga.us/pages/elections-voter-registration), [Georgia Votes](https://www.georgiavotes.com/county.php?c=123)"
+    "source_url": "[County Elections Page](https://schleycountyga.us/pages/elections-voter-registration), [Georgia Votes](https://www.georgiavotes.com/county.php?c=123)",
+    "broadcast_available": "Unknown",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "Unknown",
+    "broadcast_notes": "No livestream or broadcast information was found on the official county website or social media pages. Past Board of Elections meetings for Schley County have typically been held in person.",
+    "broadcast_source": "[Schley County Elections](https://schleycountyga.us/pages/elections-voter-registration), [Schley County News](https://schleycountyga.us/news/general-election)"
   },
   {
     "fips": "13251",
@@ -1733,7 +2594,14 @@
     "registered_voters": "",
     "turnout_pct": "",
     "notes": "As of May 21, 2026, the county website has not posted certified results or 2026 meeting minutes. The latest official report listed is from November 2024.",
-    "source_url": "[County Elections Page](https://www.screvencountyboc.com/election-administration), [BOE Meeting Page](https://www.screvencountyboc.com/boe-meetings)"
+    "source_url": "[County Elections Page](https://www.screvencountyboc.com/election-administration), [BOE Meeting Page](https://www.screvencountyboc.com/boe-meetings)",
+    "broadcast_available": "",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "",
+    "broadcast_notes": "",
+    "broadcast_source": ""
   },
   {
     "fips": "13253",
@@ -1747,7 +2615,14 @@
     "registered_voters": "",
     "turnout_pct": "",
     "notes": "Results are marked as unofficial on the Secretary of State website as of May 21, 2026. No certification meeting notice or minutes have been posted since the election.",
-    "source_url": "[County Elections Page](https://www.seminolecountyga.com/188/Elections-Registration), [GA Secretary of State Results](https://results.sos.ga.gov/results/public/seminole-county-ga/elections/GeneralPrimary51926)"
+    "source_url": "[County Elections Page](https://www.seminolecountyga.com/188/Elections-Registration), [GA Secretary of State Results](https://results.sos.ga.gov/results/public/seminole-county-ga/elections/GeneralPrimary51926)",
+    "broadcast_available": "",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "",
+    "broadcast_notes": "",
+    "broadcast_source": ""
   },
   {
     "fips": "13255",
@@ -1761,7 +2636,14 @@
     "registered_voters": "49,102",
     "turnout_pct": "28.88%",
     "notes": "Certification is scheduled for Tuesday, May 26, 2026, at 10:30 AM. Results posted are \"Unofficial and Incomplete\" as of May 19.",
-    "source_url": "[Board Meetings](https://spaldingcountyelections.com/board-meetings/), [Election Results](https://spaldingcountyelections.com/election-results-reports/)"
+    "source_url": "[Board Meetings](https://spaldingcountyelections.com/board-meetings/), [Election Results](https://spaldingcountyelections.com/election-results-reports/)",
+    "broadcast_available": "Yes",
+    "broadcast_platform": "YouTube",
+    "broadcast_url": "[County YouTube](https://www.youtube.com/channel/UC-o-lXj7Ctc6MQ2u_FIuo9Q)",
+    "broadcast_meeting_id": "",
+    "in_person_only": "No",
+    "broadcast_notes": "The county livestreams Board of Elections meetings to its official YouTube channel. Certification is scheduled for May 26, with a special record review meeting on May 22.",
+    "broadcast_source": "[Spalding County Board of Elections Meetings](https://spaldingcountyelections.com/board-meetings/)"
   },
   {
     "fips": "13257",
@@ -1775,7 +2657,14 @@
     "registered_voters": "19,071",
     "turnout_pct": "25.42%",
     "notes": "Certification meeting scheduled for Friday, May 22, 2026, at 5:00 PM. Results are currently unofficial and incomplete.",
-    "source_url": "[County Elections Page](https://stephenscountyga.gov/elections-voter-registration/), [Certification Meeting Notice](https://stephenscountyga.gov/wp-content/uploads/2026/04/special-called-meeting.pdf), [Unofficial Results Report](https://stephenscountyga.gov/wp-content/uploads/2026/05/Unofficial-and-Incomplete-Final-Election-Night-Report-with-Reg-Turnout.pdf)"
+    "source_url": "[County Elections Page](https://stephenscountyga.gov/elections-voter-registration/), [Certification Meeting Notice](https://stephenscountyga.gov/wp-content/uploads/2026/04/special-called-meeting.pdf), [Unofficial Results Report](https://stephenscountyga.gov/wp-content/uploads/2026/05/Unofficial-and-Incomplete-Final-Election-Night-Report-with-Reg-Turnout.pdf)",
+    "broadcast_available": "No",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "Yes",
+    "broadcast_notes": "The meeting is open to the public at the Historic Courthouse, but no livestream or broadcast is mentioned in the official notice or on the county's preferred media outlets. Local news (WNEG) confirms the meeting is in-person.",
+    "broadcast_source": "[Stephens County Elections](https://stephenscountyga.gov/elections-voter-registration/), [WNEG Radio](https://wnegradio.com/unofficial-stephens-county-election-results/)"
   },
   {
     "fips": "13259",
@@ -1789,7 +2678,14 @@
     "registered_voters": "",
     "turnout_pct": "",
     "notes": "No official notice of certification found as of May 21, 2026. The statutory deadline for Georgia counties to certify results is May 25, 2026.",
-    "source_url": "[Stewart County Elections](https://stewartcountyga.gov/elections/index.html)"
+    "source_url": "[Stewart County Elections](https://stewartcountyga.gov/elections/index.html)",
+    "broadcast_available": "Unknown",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "Yes",
+    "broadcast_notes": "No mention of a livestream for the Board of Elections certification meeting was found on the official county website or elections page. While a third-party group, \"Stewart County Streaming,\" frequently records other local government meetings (e.g., County Commission, School Board), no specific livestream or scheduled broadcast for the May 2026 certification meeting could be confirmed. Meetings are typically held in person at the Board of Elections office.",
+    "broadcast_source": "[Stewart County Georgia Elections](https://stewartcountyga.gov/elections/index.html)"
   },
   {
     "fips": "13261",
@@ -1803,7 +2699,14 @@
     "registered_voters": "18,037",
     "turnout_pct": "27.26%",
     "notes": "Results as of May 19, 2026 are marked 'Unofficial'. Registered voter count as of 4/22/2026 was 18,037. Turnout is approx 27.26%. Meeting calendar shows no certification meeting yet held.",
-    "source_url": "[County Elections](https://www.sumtercountygaelections.us), [Georgia SOS Results](https://results.sos.ga.gov/results/public/sumter-county-ga/elections/GeneralPrimary51926)"
+    "source_url": "[County Elections](https://www.sumtercountygaelections.us), [Georgia SOS Results](https://results.sos.ga.gov/results/public/sumter-county-ga/elections/GeneralPrimary51926)",
+    "broadcast_available": "",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "",
+    "broadcast_notes": "",
+    "broadcast_source": ""
   },
   {
     "fips": "13263",
@@ -1817,7 +2720,14 @@
     "registered_voters": "",
     "turnout_pct": "",
     "notes": "Certification meeting scheduled for May 26, 2026, at 11:30 AM. Pre-certification meeting scheduled for May 22. Results remain unofficial.",
-    "source_url": "[County Elections Page](https://www.talbotcountyga.org/board-elections-and-registration), [Certification Meeting Details](https://www.talbotcountyga.org/board-elections-and-registration/meeting/may-19th-2026-election-certification-meeting), [Official Results Page](https://results.sos.ga.gov/results/public/talbot-county-ga/elections/GeneralPrimary51926)"
+    "source_url": "[County Elections Page](https://www.talbotcountyga.org/board-elections-and-registration), [Certification Meeting Details](https://www.talbotcountyga.org/board-elections-and-registration/meeting/may-19th-2026-election-certification-meeting), [Official Results Page](https://results.sos.ga.gov/results/public/talbot-county-ga/elections/GeneralPrimary51926)",
+    "broadcast_available": "No",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "Yes",
+    "broadcast_notes": "Meeting notices and the official website only specify a physical location and invite public attendance in person. No livestream or remote options are listed.",
+    "broadcast_source": "[Meeting Detail Page](https://www.talbotcountyga.org/board-elections-and-registration/meeting/may-19th-2026-election-certification-meeting), [Public Notices](https://www.talbotcountyga.org/board-elections-and-registration/page/public-notices)"
   },
   {
     "fips": "13265",
@@ -1831,7 +2741,14 @@
     "registered_voters": "1,321 (reported by Georgia Votes)",
     "turnout_pct": "12.1% (early voting only)",
     "notes": "No official announcement of certification found as of May 21, 2026. Results appear to be pending or unofficial. Statutory deadline is May 25, 2026.",
-    "source_url": "[Taliaferro County Board of Registrars](https://taliaferrocountyga.org/board-of-registrars/), [Georgia Votes Taliaferro County](https://www.georgiavotes.com/county.php?c=131)"
+    "source_url": "[Taliaferro County Board of Registrars](https://taliaferrocountyga.org/board-of-registrars/), [Georgia Votes Taliaferro County](https://www.georgiavotes.com/county.php?c=131)",
+    "broadcast_available": "",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "",
+    "broadcast_notes": "",
+    "broadcast_source": ""
   },
   {
     "fips": "13267",
@@ -1845,7 +2762,14 @@
     "registered_voters": "Unknown",
     "turnout_pct": "Unknown",
     "notes": "No certification announcement found. Statutory deadline is May 25, 2026. Local results are being reported but official certification by the Board has not been confirmed as of May 21.",
-    "source_url": "[Tattnall County Board of Elections](https://www.tattnallcountyga.com/board-of-elections-and-registration.cfm)"
+    "source_url": "[Tattnall County Board of Elections](https://www.tattnallcountyga.com/board-of-elections-and-registration.cfm)",
+    "broadcast_available": "",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "",
+    "broadcast_notes": "",
+    "broadcast_source": ""
   },
   {
     "fips": "13269",
@@ -1859,7 +2783,14 @@
     "registered_voters": "",
     "turnout_pct": "",
     "notes": "County website has not been updated with May 19, 2026 primary certification info or meeting notices as of May 21, 2026. Certification typically occurs the Friday after the election.",
-    "source_url": "[Taylor County Elections](https://taylorcountyga.com/departments-administration.php)"
+    "source_url": "[Taylor County Elections](https://taylorcountyga.com/departments-administration.php)",
+    "broadcast_available": "",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "",
+    "broadcast_notes": "",
+    "broadcast_source": ""
   },
   {
     "fips": "13271",
@@ -1873,7 +2804,14 @@
     "registered_voters": "",
     "turnout_pct": "",
     "notes": "No official county elections website with live results or certification updates was found. Statutory deadline for certification is May 25, 2026.",
-    "source_url": "[U.S. Vote Foundation - Telfair County](https://www.usvotefoundation.org/telfair-county-ga-election-office)"
+    "source_url": "[U.S. Vote Foundation - Telfair County](https://www.usvotefoundation.org/telfair-county-ga-election-office)",
+    "broadcast_available": "",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "",
+    "broadcast_notes": "",
+    "broadcast_source": ""
   },
   {
     "fips": "13273",
@@ -1887,7 +2825,14 @@
     "registered_voters": "",
     "turnout_pct": "",
     "notes": "Results are currently unofficial. No certification announcement or meeting minutes for the May 19 primary have been posted on the county website as of May 21, 2026.",
-    "source_url": "[County Elections](https://terrellcountyga.gov/page5.html)"
+    "source_url": "[County Elections](https://terrellcountyga.gov/page5.html)",
+    "broadcast_available": "",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "",
+    "broadcast_notes": "",
+    "broadcast_source": ""
   },
   {
     "fips": "13275",
@@ -1901,7 +2846,14 @@
     "registered_voters": "",
     "turnout_pct": "",
     "notes": "Certification is scheduled for Friday, May 22, 2026, at 5 p.m. at the elections office. Election day turnout was 3,680.",
-    "source_url": "[County Elections](https://thomascountyboc.org/elections-and-registration), [WTXL News](https://www.wtxl.com/news/local-news/in-your-neighborhood/thomas-county/thomas-county-voters-head-to-polls-for-2026-georgia-primary-despite-several-unopposed-local-races), [Georgia SOS Results](https://results.sos.ga.gov/results/public/thomas-county-ga/elections/GeneralPrimary51926)"
+    "source_url": "[County Elections](https://thomascountyboc.org/elections-and-registration), [WTXL News](https://www.wtxl.com/news/local-news/in-your-neighborhood/thomas-county/thomas-county-voters-head-to-polls-for-2026-georgia-primary-despite-several-unopposed-local-races), [Georgia SOS Results](https://results.sos.ga.gov/results/public/thomas-county-ga/elections/GeneralPrimary51926)",
+    "broadcast_available": "Unknown",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "Unknown",
+    "broadcast_notes": "The Thomas County Board of Elections website was unreachable during the search. Historical data from 2020-2021 indicates that Board of Elections meetings were held in person without a livestream. No current 2026 broadcast information was found on the official site or social media.",
+    "broadcast_source": "[Thomas County Board of Elections](https://thomascountyboc.org/elections-and-registration), [Thomas County Board of Elections Facebook](https://www.facebook.com/ThomasCountyBoardofElections/)"
   },
   {
     "fips": "13277",
@@ -1915,7 +2867,14 @@
     "registered_voters": "28,065",
     "turnout_pct": "20.0%",
     "notes": "Results as of May 21, 2026 are marked as 'Unofficial'. 12 of 12 precincts have completed election night reporting. Board meetings are typically held on the 4th Monday of the month.",
-    "source_url": "[Tift County Elections Results](https://results.sos.ga.gov/results/public/tift-county-ga/elections/GeneralPrimary51926)"
+    "source_url": "[Tift County Elections Results](https://results.sos.ga.gov/results/public/tift-county-ga/elections/GeneralPrimary51926)",
+    "broadcast_available": "",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "",
+    "broadcast_notes": "",
+    "broadcast_source": ""
   },
   {
     "fips": "13279",
@@ -1929,7 +2888,14 @@
     "registered_voters": "17,702",
     "turnout_pct": "Unknown",
     "notes": "As of May 21, 2026, no certification notice has been posted. Results remain unofficial. Regular Board of Elections meetings are held on the first Thursday of each month.",
-    "source_url": ""
+    "source_url": "",
+    "broadcast_available": "",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "",
+    "broadcast_notes": "",
+    "broadcast_source": ""
   },
   {
     "fips": "13281",
@@ -1943,7 +2909,14 @@
     "registered_voters": "",
     "turnout_pct": "",
     "notes": "Unofficial results reported May 20 for BOE race (3,286 votes). No certification announcement found as of May 21. Statutory deadline is May 25.",
-    "source_url": "[County Elections](http://www.townscountyga.org/board-of-elections---registration.html)"
+    "source_url": "[County Elections](http://www.townscountyga.org/board-of-elections---registration.html)",
+    "broadcast_available": "",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "",
+    "broadcast_notes": "",
+    "broadcast_source": ""
   },
   {
     "fips": "13283",
@@ -1957,7 +2930,14 @@
     "registered_voters": "",
     "turnout_pct": "",
     "notes": "Site shows unofficial ballot totals (664 in-person, 73 absentee returned). No certification notice found as of May 21. Board meets 1st Fridays.",
-    "source_url": "[Treutlen County Election Board](https://treutlencountygov.com/government/boards_commission/election_board.php), [Daily Ballot Totals](https://cms2.revize.com/revize/treutlenga/Documents/ELETIONS/5-19-26%20Ballot%20Totals%2017.pdf)"
+    "source_url": "[Treutlen County Election Board](https://treutlencountygov.com/government/boards_commission/election_board.php), [Daily Ballot Totals](https://cms2.revize.com/revize/treutlenga/Documents/ELETIONS/5-19-26%20Ballot%20Totals%2017.pdf)",
+    "broadcast_available": "",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "",
+    "broadcast_notes": "",
+    "broadcast_source": ""
   },
   {
     "fips": "13285",
@@ -1971,7 +2951,14 @@
     "registered_voters": "48,739 (reported by Georgia Votes)",
     "turnout_pct": "",
     "notes": "Board meeting on May 21, 2026 included 'Certify May Election if able to' on agenda. Results remain marked as unofficial on SOS site as of May 21, 12:53 PM.",
-    "source_url": "[County Elections](https://www.troupcountyga.gov/Services/Elections), [Meeting Agenda](https://troupcountyga.iqm2.com/Citizens/FileView.aspx?Type=14&ID=2097), [SOS Results](https://results.sos.ga.gov/results/public/troup-county-ga/elections/GeneralPrimary51926)"
+    "source_url": "[County Elections](https://www.troupcountyga.gov/Services/Elections), [Meeting Agenda](https://troupcountyga.iqm2.com/Citizens/FileView.aspx?Type=14&ID=2097), [SOS Results](https://results.sos.ga.gov/results/public/troup-county-ga/elections/GeneralPrimary51926)",
+    "broadcast_available": "No",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "Yes",
+    "broadcast_notes": "The agenda for the May 21, 2026 meeting (which includes certification) does not provide a livestream link. Past videos for the Board of Elections were not found on the county's video portals.",
+    "broadcast_source": "[Troup County Board of Elections Agenda (May 21, 2026)](https://troupcountyga.iqm2.com/Citizens/Detail_Meeting.aspx?ID=2543)"
   },
   {
     "fips": "13287",
@@ -1985,7 +2972,14 @@
     "registered_voters": "6,112",
     "turnout_pct": "Unknown",
     "notes": "As of May 21, 2026, Turner County has not posted notice of certification. Results are pending for the May 19 primary. Statutory deadline is May 25.",
-    "source_url": "[Turner County Elections](https://turnercountygeorgia.com/departments/elections.html), [Georgia Votes - Turner](https://www.georgiavotes.com/county.php?c=142&a=1)"
+    "source_url": "[Turner County Elections](https://turnercountygeorgia.com/departments/elections.html), [Georgia Votes - Turner](https://www.georgiavotes.com/county.php?c=142&a=1)",
+    "broadcast_available": "",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "",
+    "broadcast_notes": "",
+    "broadcast_source": ""
   },
   {
     "fips": "13289",
@@ -1999,7 +2993,14 @@
     "registered_voters": "",
     "turnout_pct": "",
     "notes": "Computation, canvassing, and certification began May 20, 2026, and will continue day to day until complete. No official certification notice found as of May 21.",
-    "source_url": "[County Elections](https://www.twiggscounty.us/notice-l-a-testing-computation-canvassing-and-absentee-voting-may-192026-general-primary-election-nonpartisan-election/)"
+    "source_url": "[County Elections](https://www.twiggscounty.us/notice-l-a-testing-computation-canvassing-and-absentee-voting-may-192026-general-primary-election-nonpartisan-election/)",
+    "broadcast_available": "",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "",
+    "broadcast_notes": "",
+    "broadcast_source": ""
   },
   {
     "fips": "13291",
@@ -2013,7 +3014,14 @@
     "registered_voters": "",
     "turnout_pct": "",
     "notes": "Results are pending certification. Site explicitly states 'No Board Meeting' for May 2026. Risk Limiting Audit scheduled for May 28, 2026. Unofficial results posted.",
-    "source_url": "[Board of Election](https://www.unioncountyga.gov/308/Board-of-Election), [Elections & Voter Registration](https://www.unioncountyga.gov/306/Elections-Voter-Registration)"
+    "source_url": "[Board of Election](https://www.unioncountyga.gov/308/Board-of-Election), [Elections & Voter Registration](https://www.unioncountyga.gov/306/Elections-Voter-Registration)",
+    "broadcast_available": "Unknown",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "Unknown",
+    "broadcast_notes": "The Board of Elections website states there are no board meetings scheduled for May or June 2026 due to the elections. While the county's Board of Commissioners livestreams to YouTube, no evidence was found that the Board of Elections broadcasts its certification meetings.",
+    "broadcast_source": "[Union County Board of Election](https://www.unioncountyga.gov/308/Board-of-Election), [Agenda Center](https://www.unioncountyga.gov/AgendaCenter)"
   },
   {
     "fips": "13293",
@@ -2027,7 +3035,14 @@
     "registered_voters": "19,407",
     "turnout_pct": "26.11%",
     "notes": "Certification meeting is scheduled for May 22, 2026, at 3:00 PM. Results posted as of May 21 are unofficial and incomplete.",
-    "source_url": "[County Elections Page](https://upsoncountyga.org/499/Election-Results), [Certification Meeting Notice](https://upsoncountyga.org/DocumentCenter/View/4011/May-22-2026-Certification-Meeting-Notice?bidId=), [Election Summary Report](https://upsoncountyga.org/DocumentCenter/View/4009/ElectionSummaryReportRPT_Upson?bidId=)"
+    "source_url": "[County Elections Page](https://upsoncountyga.org/499/Election-Results), [Certification Meeting Notice](https://upsoncountyga.org/DocumentCenter/View/4011/May-22-2026-Certification-Meeting-Notice?bidId=), [Election Summary Report](https://upsoncountyga.org/DocumentCenter/View/4009/ElectionSummaryReportRPT_Upson?bidId=)",
+    "broadcast_available": "Unknown",
+    "broadcast_platform": "YouTube",
+    "broadcast_url": "[County YouTube](https://www.youtube.com/@upsoncountygeorgiagovernme2008)",
+    "broadcast_meeting_id": "",
+    "in_person_only": "No",
+    "broadcast_notes": "Past Board of Elections meetings have been posted to the county's YouTube channel, but no live broadcast link was found for the May 22, 2026 certification meeting.",
+    "broadcast_source": "[Public Notices](https://www.upsoncountyga.org/430/Public-Notices-and-Announcements), [Meeting Notice](https://www.upsoncountyga.org/DocumentCenter/View/4011/May-22-2026-Certification-Meeting-Notice?bidId=)"
   },
   {
     "fips": "13295",
@@ -2041,7 +3056,14 @@
     "registered_voters": "",
     "turnout_pct": "",
     "notes": "Results on Georgia SOS site remain \"UNOFFICIAL\" as of May 21, 2026. All 11 precincts have completed election night reporting, but certification is not yet posted.",
-    "source_url": "[County Elections](https://walkercountyga.gov/residents/elections/), [Election Results](https://results.sos.ga.gov/results/public/walker-county-ga/elections/GeneralPrimary51926)"
+    "source_url": "[County Elections](https://walkercountyga.gov/residents/elections/), [Election Results](https://results.sos.ga.gov/results/public/walker-county-ga/elections/GeneralPrimary51926)",
+    "broadcast_available": "",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "",
+    "broadcast_notes": "",
+    "broadcast_source": ""
   },
   {
     "fips": "13297",
@@ -2055,7 +3077,14 @@
     "registered_voters": "",
     "turnout_pct": "",
     "notes": "Results are currently unofficial. Special called meetings for certification are scheduled for Friday, May 22, 2026, and Tuesday, May 26, 2026. Registered voter count not yet reported.",
-    "source_url": "[Walton County Board of Elections Meetings](https://www.waltoncountyga.gov/538/Board-Meetings), [Georgia Secretary of State Election Results](https://results.sos.ga.gov/results/public/walton-county-ga/elections/GeneralPrimary51926)"
+    "source_url": "[Walton County Board of Elections Meetings](https://www.waltoncountyga.gov/538/Board-Meetings), [Georgia Secretary of State Election Results](https://results.sos.ga.gov/results/public/walton-county-ga/elections/GeneralPrimary51926)",
+    "broadcast_available": "No",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "Yes",
+    "broadcast_notes": "Meeting notice lists only the physical address (1110 E Spring St, Monroe). While other county boards stream to YouTube, the Board of Elections has no history of broadcasting meetings.",
+    "broadcast_source": "[Board Meetings | Walton County, GA](https://www.waltoncountyga.gov/538/Board-Meetings)"
   },
   {
     "fips": "13299",
@@ -2069,7 +3098,14 @@
     "registered_voters": "22,990 (estimated)",
     "turnout_pct": "3.8% (Early Voting as of May 6)",
     "notes": "Certification meeting scheduled for May 22, 2026 at 5:00 PM per county board policy. Results currently unofficial. Timothy Lucas (District 3) declared ineligible.",
-    "source_url": "[Ware County Board Meeting Dates](https://wareelections.com/board-meeting-dates/), [News4Jax Election Results](https://www.news4jax.com/vote-2026/2026/05/14/camden-ware-county-election-results-2026-georgia-primary/)"
+    "source_url": "[Ware County Board Meeting Dates](https://wareelections.com/board-meeting-dates/), [News4Jax Election Results](https://www.news4jax.com/vote-2026/2026/05/14/camden-ware-county-election-results-2026-georgia-primary/)",
+    "broadcast_available": "Unknown",
+    "broadcast_platform": "Facebook Live",
+    "broadcast_url": "[Facebook Page](https://www.facebook.com/WareCountyBoardofElectionsAndRegistration/)",
+    "broadcast_meeting_id": "",
+    "in_person_only": "No",
+    "broadcast_notes": "While regular monthly meetings held in the Commission Chambers are broadcast live on Facebook, certification meetings are typically held at the Board of Elections office and may not be streamed.",
+    "broadcast_source": "[Ware County Board of Elections Meeting Dates](https://wareelections.com/board-meeting-dates/), [Ware County Board of Elections Facebook](https://www.facebook.com/WareCountyBoardofElectionsAndRegistration/)"
   },
   {
     "fips": "13301",
@@ -2083,7 +3119,14 @@
     "registered_voters": "",
     "turnout_pct": "",
     "notes": "No certification notice or results found on county site as of May 21. Board of Elections meetings are usually held on Tuesdays; the next scheduled meeting is June 2, 2026.",
-    "source_url": "[County Elections Page](https://www.warrencountyga.com/elections.html)"
+    "source_url": "[County Elections Page](https://www.warrencountyga.com/elections.html)",
+    "broadcast_available": "Unknown",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "No",
+    "broadcast_notes": "The Warren County Board of Elections website lists in-person meetings at 48 Warren Street but provides no livestream link or remote access information for the May 2026 certification.",
+    "broadcast_source": "[Warren County, GA Elections](https://www.warrencountyga.com/elections.html)"
   },
   {
     "fips": "13303",
@@ -2097,7 +3140,14 @@
     "registered_voters": "",
     "turnout_pct": "",
     "notes": "As of May 21, 2026, no official announcement of certification for the May 19 primary was found on the county website. Results remain unofficial until certification.",
-    "source_url": "[Board of Elections & Registration | Washington County, GA](https://www.washingtoncountyga.gov/203/Board-of-Elections-Registration), [Agendas & Minutes](https://www.washingtoncountyga.gov/AgendaCenter)"
+    "source_url": "[Board of Elections & Registration | Washington County, GA](https://www.washingtoncountyga.gov/203/Board-of-Elections-Registration), [Agendas & Minutes](https://www.washingtoncountyga.gov/AgendaCenter)",
+    "broadcast_available": "",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "",
+    "broadcast_notes": "",
+    "broadcast_source": ""
   },
   {
     "fips": "13305",
@@ -2111,7 +3161,14 @@
     "registered_voters": "",
     "turnout_pct": "",
     "notes": "No certification notice or results found on county site as of May 21, 2026. Unofficial results are pending.",
-    "source_url": "[County Elections](https://www.waynecountyga.us/department/index.php?structureid=23)"
+    "source_url": "[County Elections](https://www.waynecountyga.us/department/index.php?structureid=23)",
+    "broadcast_available": "",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "",
+    "broadcast_notes": "",
+    "broadcast_source": ""
   },
   {
     "fips": "13307",
@@ -2125,7 +3182,14 @@
     "registered_voters": "Unknown",
     "turnout_pct": "Unknown",
     "notes": "As of May 21, 2026, no official certification announcement found. Georgia's statutory deadline is May 25, 2026. Results on the county site appear outdated (last updated for 2024).",
-    "source_url": "[Webster County Board of Elections](https://webstercountyga.org/boelections/)"
+    "source_url": "[Webster County Board of Elections](https://webstercountyga.org/boelections/)",
+    "broadcast_available": "",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "",
+    "broadcast_notes": "",
+    "broadcast_source": ""
   },
   {
     "fips": "13309",
@@ -2139,7 +3203,14 @@
     "registered_voters": "3,462",
     "turnout_pct": "28.37%",
     "notes": "Results on SOS site are listed as 'UNOFFICIAL' as of May 21, 2026. Board typically meets the Friday or Monday following election. No specific certification meeting notice found.",
-    "source_url": "[County Elections](https://results.sos.ga.gov/results/public/wheeler-county-ga/elections/GeneralPrimary51926)"
+    "source_url": "[County Elections](https://results.sos.ga.gov/results/public/wheeler-county-ga/elections/GeneralPrimary51926)",
+    "broadcast_available": "",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "",
+    "broadcast_notes": "",
+    "broadcast_source": ""
   },
   {
     "fips": "13311",
@@ -2153,7 +3224,14 @@
     "registered_voters": "22,378",
     "turnout_pct": "31.00%",
     "notes": "Certification meeting scheduled for Tuesday, May 26, 2026, at 10:00 a.m. Results currently unofficial.",
-    "source_url": "[County Elections](https://www.whitecountyga.gov/elections-and-registration/page/2026-results-turnout), [Certification Notice](https://www.whitecountyga.gov/elections-and-registration/page/certification-may-19-2026-primary)"
+    "source_url": "[County Elections](https://www.whitecountyga.gov/elections-and-registration/page/2026-results-turnout), [Certification Notice](https://www.whitecountyga.gov/elections-and-registration/page/certification-may-19-2026-primary)",
+    "broadcast_available": "No",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "Yes",
+    "broadcast_notes": "Public notice for the May 26 certification meeting specifies the in-person location and encourages attendance but provides no livestream or remote access information. Past meetings show no video.",
+    "broadcast_source": "[Public Notice](https://www.whitecountyga.gov/media/27746), [Certification Event Page](https://www.whitecountyga.gov/elections-and-registration/page/certification-may-19-2026-primary)"
   },
   {
     "fips": "13313",
@@ -2167,7 +3245,14 @@
     "registered_voters": "59,972",
     "turnout_pct": "21.03%",
     "notes": "Results posted on May 19, 2026, are explicitly marked 'Unofficial and Incomplete.' No certification notice found as of May 21.",
-    "source_url": "[County Elections](https://www.whitfieldcountyga.com/government/departments/elections.php), [Unofficial Results Report](https://cms1files.revize.com/whitfield/20260519%20Election%20Summary%20Report%20Unofficial%20and%20Incomplete.pdf?t=202605192135590&t=202605192135590)"
+    "source_url": "[County Elections](https://www.whitfieldcountyga.com/government/departments/elections.php), [Unofficial Results Report](https://cms1files.revize.com/whitfield/20260519%20Election%20Summary%20Report%20Unofficial%20and%20Incomplete.pdf?t=202605192135590&t=202605192135590)",
+    "broadcast_available": "",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "",
+    "broadcast_notes": "",
+    "broadcast_source": ""
   },
   {
     "fips": "13315",
@@ -2181,7 +3266,14 @@
     "registered_voters": "",
     "turnout_pct": "",
     "notes": "As of May 21, 2026, no certification notice or official results were found on the county website. Results remain unofficial/pending.",
-    "source_url": "[County Elections Page](https://wilcoxcounty.live-website.com/elections), [Board of Elections](https://wilcoxcounty.live-website.com/board-of-elections)"
+    "source_url": "[County Elections Page](https://wilcoxcounty.live-website.com/elections), [Board of Elections](https://wilcoxcounty.live-website.com/board-of-elections)",
+    "broadcast_available": "",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "",
+    "broadcast_notes": "",
+    "broadcast_source": ""
   },
   {
     "fips": "13317",
@@ -2195,7 +3287,14 @@
     "registered_voters": "",
     "turnout_pct": "",
     "notes": "No certification notice found on county website as of May 21, 2026. The statutory deadline is May 25, 2026. Unofficial results are pending or not yet certified.",
-    "source_url": "[Wilkes County Board of Elections](https://www.wilkescountyga.org/boe), [Wilkes County Current Information](https://www.wilkescountyga.org/boe/page/current-information-0)"
+    "source_url": "[Wilkes County Board of Elections](https://www.wilkescountyga.org/boe), [Wilkes County Current Information](https://www.wilkescountyga.org/boe/page/current-information-0)",
+    "broadcast_available": "",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "",
+    "broadcast_notes": "",
+    "broadcast_source": ""
   },
   {
     "fips": "13319",
@@ -2209,7 +3308,14 @@
     "registered_voters": "",
     "turnout_pct": "",
     "notes": "The county's schedule states that certification is due on May 26, 2026. As of May 21, results remain pending. A runoff notice was posted on May 21, implying primary tabulation is nearly complete.",
-    "source_url": "[County Elections Page](https://www.wilkinsoncounty.net/elections-and-registrations-2/)"
+    "source_url": "[County Elections Page](https://www.wilkinsoncounty.net/elections-and-registrations-2/)",
+    "broadcast_available": "",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "",
+    "broadcast_notes": "",
+    "broadcast_source": ""
   },
   {
     "fips": "13321",
@@ -2223,6 +3329,13 @@
     "registered_voters": "14,481",
     "turnout_pct": "",
     "notes": "Pre-certification meeting scheduled for May 22, 2026, at 9:00 AM. Results are currently pending official certification.",
-    "source_url": "[Worth County Elections](https://www.worthcountyboc.com/elections/page/official-notice-voters)"
+    "source_url": "[Worth County Elections](https://www.worthcountyboc.com/elections/page/official-notice-voters)",
+    "broadcast_available": "No",
+    "broadcast_platform": "",
+    "broadcast_url": "",
+    "broadcast_meeting_id": "",
+    "in_person_only": "Yes",
+    "broadcast_notes": "The official notice for the May 19, 2026 General Primary certification and meetings states that all events are open to the public at the Election's office, with no mention of a livestream or remote access option.",
+    "broadcast_source": "[Worth County Official Notice To Voters](https://www.worthcountyboc.com/elections/page/official-notice-voters)"
   }
 ]

@@ -317,9 +317,47 @@
     transition: background 0.12s;
   }
   .meeting-item:hover { background: #e2e8f0; }
-  .meeting-item .county-name { font-weight: 600; color: var(--ink); }
+  .meeting-item .county-name { font-weight: 600; color: var(--ink); display: flex; align-items: center; gap: 6px; }
   .meeting-item .meeting-time { font-size: 12px; color: var(--muted); font-variant-numeric: tabular-nums; }
   .meeting-item .meeting-time.tbd { font-style: italic; }
+  .meeting-item .live-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 3px;
+    background: #dc2626;
+    color: white;
+    font-size: 9px;
+    font-weight: 700;
+    padding: 1px 5px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  .meeting-item .live-badge::before {
+    content: '';
+    width: 5px;
+    height: 5px;
+    background: white;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  .meeting-item.has-live {
+    border-left: 3px solid #dc2626;
+    background: #fef2f2;
+  }
+  .meeting-item.has-live:hover { background: #fee2e2; }
+  .watch-link {
+    display: inline-block;
+    margin-top: 2px;
+    padding: 2px 8px;
+    background: #dc2626;
+    color: white;
+    text-decoration: none;
+    font-size: 11px;
+    font-weight: 600;
+    border-radius: 4px;
+  }
+  .watch-link:hover { background: #b91c1c; }
 </style>
 </head>
 <body>
@@ -541,6 +579,26 @@ Promise.all([
         <div><div style="font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:0.05em;">Registered Voters</div><div>${rec.registered_voters || '—'}</div></div>
         <div><div style="font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:0.05em;">Turnout</div><div>${rec.turnout_pct || '—'}</div></div>
       </div>
+      ${(() => {
+        if (!rec.broadcast_available || rec.broadcast_available === '') return '';
+        const platform = rec.broadcast_platform || 'Broadcast';
+        const urlMatch = rec.broadcast_url && rec.broadcast_url.match(/\[([^\]]+)\]\((https?:[^)]+)\)/g);
+        let urlsHtml = '';
+        if (urlMatch) {
+          urlsHtml = urlMatch.map(u => {
+            const m = u.match(/\[([^\]]+)\]\((https?:[^)]+)\)/);
+            return `<a class="watch-link" href="${m[2]}" target="_blank">● Watch on ${m[1]}</a>`;
+          }).join(' ');
+        }
+        if (rec.broadcast_available === 'Yes' && urlsHtml) {
+          return `<div style="margin-top:14px;padding:12px;background:#fef2f2;border-left:3px solid #dc2626;border-radius:4px;font-size:13px;"><strong>🔴 Livestream available (${platform}):</strong> ${urlsHtml}${rec.broadcast_meeting_id?`<div style="margin-top:4px;font-size:12px;color:var(--muted);">Meeting ID/Passcode: ${rec.broadcast_meeting_id}</div>`:''}${rec.broadcast_notes?`<div style="margin-top:4px;font-size:12px;color:var(--muted);">${rec.broadcast_notes}</div>`:''}</div>`;
+        } else if (rec.in_person_only === 'Yes') {
+          return `<div style="margin-top:14px;padding:10px 12px;background:#f1f5f9;border-left:3px solid #94a3b8;border-radius:4px;font-size:12px;color:var(--muted);"><strong>In-person only.</strong> ${rec.broadcast_notes || 'No livestream offered for this meeting.'}</div>`;
+        } else if (rec.broadcast_available === 'Unknown') {
+          return `<div style="margin-top:14px;padding:10px 12px;background:#fefce8;border-left:3px solid #eab308;border-radius:4px;font-size:12px;color:#854d0e;"><strong>Broadcast status unknown.</strong> ${rec.broadcast_notes || ''}</div>`;
+        }
+        return '';
+      })()}
       ${rec.notes ? `<div style="margin-top:14px;padding:12px;background:#f8fafc;border-left:3px solid var(--accent);border-radius:4px;font-size:13px;"><strong>Notes:</strong> ${rec.notes}</div>` : ''}
       ${sources ? `<div style="margin-top:12px;font-size:12px;color:var(--muted);"><strong>Sources:</strong> ${sources}</div>` : ''}
     `;
@@ -591,18 +649,36 @@ Promise.all([
     }},
     {key: 'by-deadline', label: 'By Deadline (May 25)', test: d => d <= STATUTORY_DEADLINE},
     {key: 'after-deadline', label: 'After Deadline', test: d => d > STATUTORY_DEADLINE},
+    {key: 'has-broadcast', label: '● Live Broadcast', test: () => true, recordTest: r => r.broadcast_url && r.broadcast_available === 'Yes'},
   ];
 
   let activeFilter = 'all';
   const controlsEl = document.getElementById('meetings-controls');
   controlsEl.innerHTML = filterOptions.map(f => {
-    const count = sortedDates.reduce((acc, d) => acc + (f.test(d) ? meetingsByDate[d].length : 0), 0);
+    let count;
+    if (f.recordTest) {
+      count = withMeetings.filter(f.recordTest).length;
+    } else {
+      count = sortedDates.reduce((acc, d) => acc + (f.test(d) ? meetingsByDate[d].length : 0), 0);
+    }
     return `<button class="pill ${f.key==='all'?'active':''}" data-filter="${f.key}">${f.label}<span class="count">${count}</span></button>`;
   }).join('');
 
   function renderMeetings() {
     const filter = filterOptions.find(f => f.key === activeFilter);
-    const datesShown = sortedDates.filter(d => filter.test(d));
+    // If filter has recordTest, filter individual records; else filter by date
+    let datesShown;
+    let filteredByDate = meetingsByDate;
+    if (filter.recordTest) {
+      filteredByDate = {};
+      sortedDates.forEach(d => {
+        const matching = meetingsByDate[d].filter(filter.recordTest);
+        if (matching.length) filteredByDate[d] = matching;
+      });
+      datesShown = Object.keys(filteredByDate).sort();
+    } else {
+      datesShown = sortedDates.filter(d => filter.test(d));
+    }
     const listEl = document.getElementById('meetings-list');
     if (!datesShown.length) {
       listEl.innerHTML = `<div style="color:var(--muted);font-size:14px;padding:12px 0;">No meetings match this filter.</div>`;
@@ -621,16 +697,19 @@ Promise.all([
         <div class="meeting-day">
           <div class="meeting-day-header">
             ${formatMeetingDay(d)}
-            <span class="day-count">${meetingsByDate[d].length} ${meetingsByDate[d].length===1?'county':'counties'}</span>
+            <span class="day-count">${filteredByDate[d].length} ${filteredByDate[d].length===1?'county':'counties'}</span>
             ${badge}
           </div>
           <div class="meeting-list">
-            ${meetingsByDate[d].map(r => `
-              <div class="meeting-item" data-county="${r.county}">
-                <span class="county-name">${r.county}</span>
+            ${filteredByDate[d].map(r => {
+              const hasLive = r.broadcast_url && r.broadcast_available === 'Yes';
+              const liveUrl = hasLive ? (r.broadcast_url.match(/\((https?:[^)]+)\)/) || [])[1] : '';
+              return `
+              <div class="meeting-item ${hasLive?'has-live':''}" data-county="${r.county}">
+                <span class="county-name">${r.county}${hasLive?'<span class="live-badge">Live</span>':''}</span>
                 <span class="meeting-time ${r.meeting_time?'':'tbd'}">${r.meeting_time || 'time TBD'}</span>
               </div>
-            `).join('')}
+            `;}).join('')}
           </div>
         </div>
       `;

@@ -53,6 +53,13 @@ Commit and push. GitHub Pages will redeploy in ~1 minute.
 | `certification_deadline` | Default `2026-05-25` |
 | `meeting_date` | YYYY-MM-DD of scheduled certification board meeting (auto-extracted from notes by `extract_meetings.py`, or set manually) |
 | `meeting_time` | e.g. `3:00 PM` — blank if TBD |
+| `broadcast_available` | `Yes` / `No` / `Unknown` — whether the meeting is livestreamed |
+| `broadcast_platform` | `Zoom`, `YouTube`, `Facebook Live`, `Webex`, `Microsoft Teams`, county portal name, etc. |
+| `broadcast_url` | Markdown link(s) to livestream: `[YouTube](https://...)`. Multiple platforms separated by `, ` |
+| `broadcast_meeting_id` | Zoom meeting ID + passcode, or call-in number. Blank if N/A |
+| `in_person_only` | `Yes` if the meeting is in-person only (no remote option) |
+| `broadcast_notes` | Context like "requires pre-registration" or "posted to YouTube within 48hrs" |
+| `broadcast_source` | Markdown link to where broadcast info was found |
 | `ballots_cast` | Total ballots, free-text |
 | `registered_voters` | Free-text |
 | `turnout_pct` | Percentage with `%`, e.g. `23.31%` |
