@@ -18,6 +18,7 @@ Once deployed to GitHub Pages, the tracker is viewable at:
 | `ga_certification_tracker.json` | Auto-generated from CSV for the web app. Regenerate after edits (see below). |
 | `ga_counties.geojson` | Georgia county boundaries with FIPS IDs. No need to edit. |
 | `update.py` | Helper script to regenerate JSON from CSV. |
+| `extract_meetings.py` | Re-parses `meeting_date` / `meeting_time` from the `notes` field. Run when you add new meeting info to notes. |
 
 ## How to update the tracker
 
@@ -33,8 +34,11 @@ When a county certifies, edit `ga_certification_tracker.csv`:
 Then regenerate the JSON file that the dashboard reads:
 
 ```bash
-python3 update.py
+python3 extract_meetings.py   # re-parses meeting_date / meeting_time from notes
+python3 update.py             # regenerates ga_certification_tracker.json
 ```
+
+If you set `meeting_date` and `meeting_time` directly in the CSV, you can skip `extract_meetings.py` — but running it is safe (it only overwrites blank rows).
 
 Commit and push. GitHub Pages will redeploy in ~1 minute.
 
@@ -47,6 +51,8 @@ Commit and push. GitHub Pages will redeploy in ~1 minute.
 | `certified` | `Yes` / `No` / `Unknown` |
 | `certification_date` | YYYY-MM-DD, blank if not certified |
 | `certification_deadline` | Default `2026-05-25` |
+| `meeting_date` | YYYY-MM-DD of scheduled certification board meeting (auto-extracted from notes by `extract_meetings.py`, or set manually) |
+| `meeting_time` | e.g. `3:00 PM` — blank if TBD |
 | `ballots_cast` | Total ballots, free-text |
 | `registered_voters` | Free-text |
 | `turnout_pct` | Percentage with `%`, e.g. `23.31%` |

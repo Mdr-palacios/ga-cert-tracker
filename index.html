@@ -222,6 +222,104 @@
     margin-top: 12px;
   }
   .data-source a { color: var(--accent); }
+
+  .meetings-panel { margin-top: 24px; }
+  .meetings-controls {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 14px;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .pill {
+    padding: 6px 14px;
+    border: 1px solid var(--border);
+    background: white;
+    border-radius: 20px;
+    font-family: inherit;
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.15s;
+    color: var(--ink);
+  }
+  .pill:hover { border-color: var(--accent); color: var(--accent); }
+  .pill.active { background: var(--accent); color: white; border-color: var(--accent); }
+  .pill .count {
+    display: inline-block;
+    margin-left: 6px;
+    padding: 1px 7px;
+    background: rgba(255,255,255,0.25);
+    border-radius: 10px;
+    font-size: 11px;
+    font-weight: 700;
+  }
+  .pill:not(.active) .count {
+    background: var(--bg);
+    color: var(--muted);
+  }
+  .meeting-day {
+    margin-bottom: 18px;
+    border-left: 3px solid var(--accent);
+    padding-left: 14px;
+  }
+  .meeting-day-header {
+    font-weight: 700;
+    font-size: 14px;
+    color: var(--ink);
+    margin-bottom: 4px;
+  }
+  .meeting-day-header .day-count {
+    color: var(--muted);
+    font-weight: 500;
+    font-size: 12px;
+    margin-left: 6px;
+  }
+  .meeting-day-header .deadline-warn {
+    display: inline-block;
+    margin-left: 8px;
+    padding: 1px 7px;
+    background: #fee2e2;
+    color: #b91c1c;
+    border-radius: 10px;
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  .meeting-day-header .deadline-ok {
+    display: inline-block;
+    margin-left: 8px;
+    padding: 1px 7px;
+    background: #dcfce7;
+    color: #15803d;
+    border-radius: 10px;
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  .meeting-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 6px;
+    margin-top: 8px;
+  }
+  .meeting-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 10px;
+    background: var(--bg);
+    border-radius: 6px;
+    font-size: 13px;
+    cursor: pointer;
+    transition: background 0.12s;
+  }
+  .meeting-item:hover { background: #e2e8f0; }
+  .meeting-item .county-name { font-weight: 600; color: var(--ink); }
+  .meeting-item .meeting-time { font-size: 12px; color: var(--muted); font-variant-numeric: tabular-nums; }
+  .meeting-item .meeting-time.tbd { font-style: italic; }
 </style>
 </head>
 <body>
@@ -288,6 +386,14 @@
         <a href="ga_certification_tracker.json">JSON</a>
       </div>
     </div>
+  </div>
+
+  <div class="panel meetings-panel">
+    <h2>Upcoming Certification Meetings</h2>
+    <div class="meetings-controls" id="meetings-controls">
+      <!-- Filled by JS -->
+    </div>
+    <div id="meetings-list"></div>
   </div>
 
   <div class="panel" style="margin-top:24px;">
@@ -424,6 +530,7 @@ Promise.all([
       const m = s.match(/\[([^\]]+)\]\(([^)]+)\)/);
       return m ? `<a href="${m[2]}" target="_blank">${m[1]}</a>` : s;
     }).join(' &middot; ');
+    document.getElementById('detail-panel').scrollIntoView({behavior: 'smooth', block: 'nearest'});
     document.getElementById('detail-panel').innerHTML = `
       <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px;color:var(--ink);">
         <div><div style="font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:0.05em;">County</div><div style="font-size:18px;font-weight:700;">${rec.county} County</div></div>
@@ -438,6 +545,115 @@ Promise.all([
       ${sources ? `<div style="margin-top:12px;font-size:12px;color:var(--muted);"><strong>Sources:</strong> ${sources}</div>` : ''}
     `;
   }
+  // ===== Upcoming Meetings Panel =====
+  const STATUTORY_DEADLINE = '2026-05-25';
+  const TODAY_ISO = '2026-05-21';
+
+  function formatMeetingDay(iso) {
+    const [y, m, d] = iso.split('-').map(Number);
+    const dt = new Date(Date.UTC(y, m-1, d));
+    const weekday = dt.toLocaleDateString('en-US', { weekday: 'long', timeZone: 'UTC' });
+    const month = dt.toLocaleDateString('en-US', { month: 'long', timeZone: 'UTC' });
+    return `${weekday}, ${month} ${d}`;
+  }
+
+  function timeToMinutes(t) {
+    if (!t) return 9999;
+    const m = t.match(/^(\d{1,2}):(\d{2})\s*(AM|PM)$/i);
+    if (!m) return 9999;
+    let h = parseInt(m[1]);
+    const min = parseInt(m[2]);
+    if (/PM/i.test(m[3]) && h !== 12) h += 12;
+    if (/AM/i.test(m[3]) && h === 12) h = 0;
+    return h*60 + min;
+  }
+
+  const withMeetings = data.filter(d => d.meeting_date && d.certified !== 'Yes');
+
+  // Build day buckets
+  const meetingsByDate = {};
+  withMeetings.forEach(d => {
+    (meetingsByDate[d.meeting_date] = meetingsByDate[d.meeting_date] || []).push(d);
+  });
+  Object.values(meetingsByDate).forEach(list => {
+    list.sort((a,b) => timeToMinutes(a.meeting_time) - timeToMinutes(b.meeting_time) || a.county.localeCompare(b.county));
+  });
+
+  const sortedDates = Object.keys(meetingsByDate).sort();
+
+  // Filter pills
+  const filterOptions = [
+    {key: 'all', label: 'All Upcoming', test: () => true},
+    {key: 'today', label: 'Today', test: d => d === TODAY_ISO},
+    {key: 'tomorrow', label: 'Tomorrow', test: d => {
+      const t = new Date(TODAY_ISO+'T00:00:00Z'); t.setUTCDate(t.getUTCDate()+1);
+      return d === t.toISOString().slice(0,10);
+    }},
+    {key: 'by-deadline', label: 'By Deadline (May 25)', test: d => d <= STATUTORY_DEADLINE},
+    {key: 'after-deadline', label: 'After Deadline', test: d => d > STATUTORY_DEADLINE},
+  ];
+
+  let activeFilter = 'all';
+  const controlsEl = document.getElementById('meetings-controls');
+  controlsEl.innerHTML = filterOptions.map(f => {
+    const count = sortedDates.reduce((acc, d) => acc + (f.test(d) ? meetingsByDate[d].length : 0), 0);
+    return `<button class="pill ${f.key==='all'?'active':''}" data-filter="${f.key}">${f.label}<span class="count">${count}</span></button>`;
+  }).join('');
+
+  function renderMeetings() {
+    const filter = filterOptions.find(f => f.key === activeFilter);
+    const datesShown = sortedDates.filter(d => filter.test(d));
+    const listEl = document.getElementById('meetings-list');
+    if (!datesShown.length) {
+      listEl.innerHTML = `<div style="color:var(--muted);font-size:14px;padding:12px 0;">No meetings match this filter.</div>`;
+      return;
+    }
+    listEl.innerHTML = datesShown.map(d => {
+      const isPast = d < TODAY_ISO;
+      const isDeadline = d === STATUTORY_DEADLINE;
+      const afterDeadline = d > STATUTORY_DEADLINE;
+      let badge = '';
+      if (afterDeadline) badge = '<span class="deadline-warn">After Deadline</span>';
+      else if (isDeadline) badge = '<span class="deadline-warn">Deadline Day</span>';
+      else if (!isPast) badge = '<span class="deadline-ok">Before Deadline</span>';
+
+      return `
+        <div class="meeting-day">
+          <div class="meeting-day-header">
+            ${formatMeetingDay(d)}
+            <span class="day-count">${meetingsByDate[d].length} ${meetingsByDate[d].length===1?'county':'counties'}</span>
+            ${badge}
+          </div>
+          <div class="meeting-list">
+            ${meetingsByDate[d].map(r => `
+              <div class="meeting-item" data-county="${r.county}">
+                <span class="county-name">${r.county}</span>
+                <span class="meeting-time ${r.meeting_time?'':'tbd'}">${r.meeting_time || 'time TBD'}</span>
+              </div>
+            `).join('')}
+          </div>
+        </div>
+      `;
+    }).join('');
+
+    // Click handlers
+    listEl.querySelectorAll('.meeting-item').forEach(el => {
+      el.addEventListener('click', () => {
+        const rec = data.find(r => r.county === el.dataset.county);
+        if (rec) showDetail(rec);
+      });
+    });
+  }
+
+  controlsEl.querySelectorAll('.pill').forEach(btn => {
+    btn.addEventListener('click', () => {
+      activeFilter = btn.dataset.filter;
+      controlsEl.querySelectorAll('.pill').forEach(b => b.classList.toggle('active', b===btn));
+      renderMeetings();
+    });
+  });
+  renderMeetings();
+
 }).catch(err => {
   console.error(err);
   document.body.insertAdjacentHTML('beforeend', `<div style="padding:20px;color:red;">Error loading data: ${err.message}</div>`);
